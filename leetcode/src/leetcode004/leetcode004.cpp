@@ -9,13 +9,11 @@
 // 	Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 // 	Output: 7 -> 0 -> 8
 
-#include "stdafx.h"
-
 struct ListNode
 {
     int val;
     ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
+    ListNode(int x) : val(x), next(nullptr) {}
 };
  
 class Solution
@@ -47,7 +45,7 @@ public:
 };
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	Solution s;
 
@@ -57,7 +55,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	ListNode * v1 = s.addTwoNumbers( t1l1, t1l2 );
 
 //test case 2
-	ListNode * v2 = s.addTwoNumbers( NULL, NULL );
+	ListNode * v2 = s.addTwoNumbers( nullptr, nullptr );
 
 //test case 3
 	ListNode * t3l1 = new ListNode( 1 );

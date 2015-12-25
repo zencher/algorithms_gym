@@ -1,4 +1,4 @@
-// leetcode001.cpp : �������̨Ӧ�ó������ڵ㡣
+// leetcode001.cpp : ∂®“Âøÿ÷∆Ã®”¶”√≥Ã–Úµƒ»Îø⁄µ„°£
 //
 // Two Sum
 //
@@ -12,7 +12,6 @@
 // 	Input: numbers={2, 7, 11, 15}, target=9
 // 	Output: index1=1, index2=2
 
-#include "stdafx.h"
 #include <vector>
 #include <unordered_map>
 using namespace std;
@@ -71,7 +70,7 @@ public:
 	}
 };
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	vector<int> arr;
 	arr.push_back( 3 );

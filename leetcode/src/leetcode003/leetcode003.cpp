@@ -5,7 +5,6 @@
 // 	For example, the longest substring without repeating letters for "abcabcbb" is "abc", which the length is 3.
 // 	For "bbbbb" the longest substring is "b", with the length of 1.
 
-#include "stdafx.h"
 #include <string>
 using namespace std;
 
@@ -32,7 +31,8 @@ public:
 	}
 };
 
-int _tmain(int argc, _TCHAR* argv[])
+
+int main()
 {
 	Solution s;
 	//s.lengthOfLongestSubstring( "hnwnkuewhsqmgbbuqcljjivswmdkqtbxixmvtrrbljptnsnfwzqfjmafadrrwsofsbcnuvqhffbsaqxwpqcac" );
