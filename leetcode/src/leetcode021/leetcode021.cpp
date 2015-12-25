@@ -4,7 +4,6 @@
 // 	Merge two sorted linked lists and return it as a new list.
 // 	The new list should be made by splicing together the nodes of the first two lists.
 
-#include "stdafx.h"
 #include <vector>
 using namespace std;
 
@@ -38,7 +37,7 @@ public:
 	}
 };
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	return 0;
 }

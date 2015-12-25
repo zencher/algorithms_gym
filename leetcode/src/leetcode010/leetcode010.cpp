@@ -22,8 +22,6 @@
 // 	isMatch("ab", ".*") ¡ú true
 // 	isMatch("aab", "c*a*b") ¡ú true
 
-#include "stdafx.h"
-
 class Solution
 {
 public:
@@ -59,7 +57,7 @@ public:
 };
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	Solution s;
 	bool bRet = false;

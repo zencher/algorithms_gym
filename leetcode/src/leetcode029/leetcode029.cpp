@@ -5,9 +5,7 @@
 // 	Implement strStr().
 // 	Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 
-#include "stdafx.h"
-#include <Windows.h>
-
+#include <stdio.h>
 #include <string>
 
 // class Solution
@@ -152,8 +150,8 @@
 
 
 
-LARGE_INTEGER gFeq;
-LARGE_INTEGER gBegin, gEnd;
+//LARGE_INTEGER gFeq;
+//LARGE_INTEGER gBegin, gEnd;
 
 class Solution
 {
@@ -213,25 +211,25 @@ public:
 	}
 };
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
-	QueryPerformanceFrequency( &gFeq );
+	//QueryPerformanceFrequency( &gFeq );
 
 	Solution s;
 
-	QueryPerformanceCounter( &gBegin );
+	//QueryPerformanceCounter( &gBegin );
 
 	int iRt = s.strStr( "mississippi", "issi" );
 
-	QueryPerformanceCounter( &gEnd );
+	//QueryPerformanceCounter( &gEnd );
 
-	WCHAR tmpstr[1024];
+	//WCHAR tmpstr[1024];
 
-	DWORD parseTime = ( (double)( gEnd.QuadPart - gBegin.QuadPart ) ) * 1000 * 1000 / ( (double)gFeq.QuadPart );
+	//DWORD parseTime = ( (double)( gEnd.QuadPart - gBegin.QuadPart ) ) * 1000 * 1000 / ( (double)gFeq.QuadPart );
 
-	wsprintfW( tmpstr, L"%d ms", parseTime );
+	//wsprintfW( tmpstr, L"%d ms", parseTime );
 
-	MessageBox( NULL, tmpstr, tmpstr, 0 );
+	//MessageBox( NULL, tmpstr, tmpstr, 0 );
 
 	return 0;
 }

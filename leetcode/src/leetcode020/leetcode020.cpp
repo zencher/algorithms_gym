@@ -6,7 +6,6 @@
 // 	Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 // 	The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
 
-#include "stdafx.h"
 #include <string>
 #include <stack>
 using namespace std;
@@ -59,7 +58,7 @@ public:
 	}
 };
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	Solution s;
 

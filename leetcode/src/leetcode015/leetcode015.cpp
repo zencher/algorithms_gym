@@ -1,8 +1,6 @@
 // leetcode015.cpp : 定义控制台应用程序的入口点。
 //
 
-#include "stdafx.h"
-
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -80,7 +78,7 @@ public:
 	}
 };
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	Solution s;
 

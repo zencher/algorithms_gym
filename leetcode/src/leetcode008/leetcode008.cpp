@@ -1,7 +1,5 @@
-// leetcode008.cpp : �������̨Ӧ�ó������ڵ㡣
+// leetcode008.cpp : ∂®“Âøÿ÷∆Ã®”¶”√≥Ã–Úµƒ»Îø⁄µ„°£
 //
-
-#include "stdafx.h"
 
 class Solution
 {
@@ -85,12 +83,12 @@ end:
 			ret = -ret;
 		}
 
-		return ret;
+		return (int)ret;
 	}
 };
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	Solution s;
 	s.atoi( "2147483648" );

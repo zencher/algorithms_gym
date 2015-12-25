@@ -5,8 +5,6 @@
 // 	Divide two integers without using multiplication, division and mod operator.
 //	If it is overflow, return MAX_INT.
 
-#include "stdafx.h"
-
 class Solution
 {
 public:
@@ -37,7 +35,7 @@ public:
 	}
 };
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	Solution s;
 	int iRet = s.divide( -2147483648, -1 );

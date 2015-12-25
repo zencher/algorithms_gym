@@ -7,13 +7,12 @@
 // 	Given 1->2->3->4, you should return the list as 2->1->4->3.
 // 	Your algorithm should use only constant space. You may not modify the values in the list, only nodes itself can be changed.
 
-#include "stdafx.h"
 
 struct ListNode
 {
 	int val;
 	ListNode *next;
-	ListNode(int x) : val(x), next(NULL) {}
+	ListNode(int x) : val(x), next(nullptr) {}
 };
 
 class Solution
@@ -27,7 +26,7 @@ public:
 		}
 
 		ListNode * pHead = head;
-		ListNode * pPrv = NULL;
+		ListNode * pPrv = nullptr;
 		ListNode * pN1 = head;
 		ListNode * pN2 = head->next;
 		if ( pN1 && pN2 )
@@ -54,7 +53,7 @@ public:
 };
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	Solution s;
 
@@ -65,7 +64,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	ListNode * pTmp = s.swapPairs( p1 );
 
-	ListNode * p2 = NULL;
+	ListNode * p2 = nullptr;
 	pTmp = s.swapPairs( p2 );
 
 	ListNode * p3 =  new ListNode(1);

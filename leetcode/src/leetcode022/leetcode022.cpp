@@ -5,7 +5,6 @@
 // 	For example, given n = 3, a solution set is:
 //	"((()))", "(()())", "(())()", "()(())", "()()()"
 
-#include "stdafx.h"
 #include <vector>
 #include <string>
 using namespace std;
@@ -38,7 +37,7 @@ public:
 	}
 };
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	Solution s;
 

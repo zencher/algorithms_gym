@@ -1,8 +1,6 @@
 // leetcode013.cpp : 定义控制台应用程序的入口点。
 //
 
-#include "stdafx.h"
-
 #include <string>
 
 using namespace std;
@@ -34,7 +32,7 @@ public:
 	}
 };
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	return 0;
 }

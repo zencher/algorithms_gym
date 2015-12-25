@@ -3,7 +3,6 @@
 // Merge k Sorted Lists
 // 	Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
 
-#include "stdafx.h"
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -46,10 +45,11 @@ public:
 
 			return pHead;
 		}
+        return nullptr;
 	}
 };
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	Solution s;
 
