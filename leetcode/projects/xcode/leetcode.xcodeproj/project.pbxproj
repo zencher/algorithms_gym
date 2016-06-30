@@ -1,0 +1,2839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		903103E61C2CE88E00AEFA94 /* leetcode001.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903103E51C2CE88E00AEFA94 /* leetcode001.cpp */; };
+		903103E91C2CE93100AEFA94 /* leetcode002.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903103E81C2CE93100AEFA94 /* leetcode002.cpp */; };
+		903103F41C2CE9B400AEFA94 /* leetcode003.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903103F31C2CE9B400AEFA94 /* leetcode003.cpp */; };
+		9031043F1C2CEA8B00AEFA94 /* leetcode004.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9031043E1C2CEA8B00AEFA94 /* leetcode004.cpp */; };
+		903104411C2CEAA100AEFA94 /* leetcode005.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903104401C2CEAA100AEFA94 /* leetcode005.cpp */; };
+		903104431C2CEAAE00AEFA94 /* leetcode006.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903104421C2CEAAE00AEFA94 /* leetcode006.cpp */; };
+		903104471C2CEACB00AEFA94 /* leetcode008.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903104461C2CEACB00AEFA94 /* leetcode008.cpp */; };
+		9031044B1C2CEAEB00AEFA94 /* leetcode010.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9031044A1C2CEAEB00AEFA94 /* leetcode010.cpp */; };
+		9031044D1C2CEAF800AEFA94 /* leetcode011.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9031044C1C2CEAF800AEFA94 /* leetcode011.cpp */; };
+		9031044E1C2CEB0E00AEFA94 /* leetcode007.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903104441C2CEAB900AEFA94 /* leetcode007.cpp */; };
+		9031044F1C2CEB1900AEFA94 /* leetcode009.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903104481C2CEADC00AEFA94 /* leetcode009.cpp */; };
+		903105051C2D1E8D00AEFA94 /* leetcode012.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903105031C2D1E8D00AEFA94 /* leetcode012.cpp */; };
+		903105071C2D1E9A00AEFA94 /* leetcode013.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903105061C2D1E9A00AEFA94 /* leetcode013.cpp */; };
+		903105091C2D1EBB00AEFA94 /* leetcode014.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903105081C2D1EBB00AEFA94 /* leetcode014.cpp */; };
+		9031050B1C2D1EC800AEFA94 /* leetcode015.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9031050A1C2D1EC800AEFA94 /* leetcode015.cpp */; };
+		9031050D1C2D1ED500AEFA94 /* leetcode016.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9031050C1C2D1ED500AEFA94 /* leetcode016.cpp */; };
+		9031050F1C2D1EE200AEFA94 /* leetcode017.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9031050E1C2D1EE200AEFA94 /* leetcode017.cpp */; };
+		903105111C2D1F1100AEFA94 /* leetcode018.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903105101C2D1F1100AEFA94 /* leetcode018.cpp */; };
+		903105131C2D1F2300AEFA94 /* leetcode019.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903105121C2D1F2300AEFA94 /* leetcode019.cpp */; };
+		903105151C2D1F3400AEFA94 /* leetcode020.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903105141C2D1F3400AEFA94 /* leetcode020.cpp */; };
+		903105171C2D1F4300AEFA94 /* leetcode021.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903105161C2D1F4300AEFA94 /* leetcode021.cpp */; };
+		903105191C2D1F5100AEFA94 /* leetcode022.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903105181C2D1F5100AEFA94 /* leetcode022.cpp */; };
+		9031051B1C2D1F6000AEFA94 /* leetcode023.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9031051A1C2D1F6000AEFA94 /* leetcode023.cpp */; };
+		9031051D1C2D1F6E00AEFA94 /* leetcode024.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9031051C1C2D1F6E00AEFA94 /* leetcode024.cpp */; };
+		9031051F1C2D1F7E00AEFA94 /* leetcode025.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9031051E1C2D1F7E00AEFA94 /* leetcode025.cpp */; };
+		903105211C2D1F8B00AEFA94 /* leetcode026.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903105201C2D1F8B00AEFA94 /* leetcode026.cpp */; };
+		903105231C2D1F9700AEFA94 /* leetcode027.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903105221C2D1F9700AEFA94 /* leetcode027.cpp */; };
+		903105251C2D1FA600AEFA94 /* leetcode028.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903105241C2D1FA600AEFA94 /* leetcode028.cpp */; };
+		903105271C2D1FB400AEFA94 /* leetcode029.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903105261C2D1FB400AEFA94 /* leetcode029.cpp */; };
+		903105291C2D1FC100AEFA94 /* leetcode030.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903105281C2D1FC100AEFA94 /* leetcode030.cpp */; };
+		904716811D24CE93002F59E3 /* leetcode260.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 904716801D24CE93002F59E3 /* leetcode260.cpp */; };
+		904716831D24CEA5002F59E3 /* leetcode257.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 904716821D24CEA5002F59E3 /* leetcode257.cpp */; };
+		904716851D24CEB4002F59E3 /* leetcode206.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 904716841D24CEB4002F59E3 /* leetcode206.cpp */; };
+		904716871D24CEC8002F59E3 /* leetcode190.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 904716861D24CEC8002F59E3 /* leetcode190.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		902A4C9E1D1D129900B382BB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903103CD1C2ACF7400AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903103DC1C2AD0EB00AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903103EE1C2CE99500AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903103FA1C2CEA0B00AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104031C2CEA0D00AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9031040C1C2CEA0F00AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104151C2CEA1000AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9031041E1C2CEA1200AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104271C2CEA1300AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104301C2CEA1400AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104391C2CEA1600AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9031045C1C2D1DF800AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104651C2D1DF800AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9031046E1C2D1DF900AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104771C2D1DF900AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104801C2D1DF900AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104891C2D1DF900AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104921C2D1DF900AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9031049B1C2D1DF900AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104A41C2D1DFA00AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104AD1C2D1DFA00AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104B61C2D1DFA00AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104BF1C2D1DFA00AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104C81C2D1DFA00AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104D11C2D1DFA00AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104DA1C2D1DFB00AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104E31C2D1E5700AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104EC1C2D1E5700AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104F51C2D1E5900AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		903104FE1C2D1E5900AEFA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9045FFCA1D05687800016608 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		90D7CBAC1CD0DAFF0076F8B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		90DC8D671CED57CE0006E9CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		902A4CA01D1D129900B382BB /* leetcode257 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode257; sourceTree = BUILT_PRODUCTS_DIR; };
+		903103CF1C2ACF7400AEFA94 /* leetcode001 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode001; sourceTree = BUILT_PRODUCTS_DIR; };
+		903103E01C2AD0EB00AEFA94 /* leetcode002 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode002; sourceTree = BUILT_PRODUCTS_DIR; };
+		903103E51C2CE88E00AEFA94 /* leetcode001.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode001.cpp; path = ../../src/leetcode001/leetcode001.cpp; sourceTree = "<group>"; };
+		903103E81C2CE93100AEFA94 /* leetcode002.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode002.cpp; path = ../../src/leetcode002/leetcode002.cpp; sourceTree = "<group>"; };
+		903103F21C2CE99500AEFA94 /* leetcode003 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode003; sourceTree = BUILT_PRODUCTS_DIR; };
+		903103F31C2CE9B400AEFA94 /* leetcode003.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode003.cpp; path = ../../src/leetcode003/leetcode003.cpp; sourceTree = "<group>"; };
+		903103FE1C2CEA0B00AEFA94 /* leetcode004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode004; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104071C2CEA0D00AEFA94 /* leetcode005 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode005; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104101C2CEA0F00AEFA94 /* leetcode006 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode006; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104191C2CEA1000AEFA94 /* leetcode007 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode007; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104221C2CEA1200AEFA94 /* leetcode008 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode008; sourceTree = BUILT_PRODUCTS_DIR; };
+		9031042B1C2CEA1300AEFA94 /* leetcode009 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode009; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104341C2CEA1400AEFA94 /* leetcode010 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode010; sourceTree = BUILT_PRODUCTS_DIR; };
+		9031043D1C2CEA1600AEFA94 /* leetcode011 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode011; sourceTree = BUILT_PRODUCTS_DIR; };
+		9031043E1C2CEA8B00AEFA94 /* leetcode004.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode004.cpp; path = ../../src/leetcode004/leetcode004.cpp; sourceTree = "<group>"; };
+		903104401C2CEAA100AEFA94 /* leetcode005.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode005.cpp; path = ../../src/leetcode005/leetcode005.cpp; sourceTree = "<group>"; };
+		903104421C2CEAAE00AEFA94 /* leetcode006.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode006.cpp; path = ../../src/leetcode006/leetcode006.cpp; sourceTree = "<group>"; };
+		903104441C2CEAB900AEFA94 /* leetcode007.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode007.cpp; path = ../../src/leetcode007/leetcode007.cpp; sourceTree = "<group>"; };
+		903104461C2CEACB00AEFA94 /* leetcode008.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode008.cpp; path = ../../src/leetcode008/leetcode008.cpp; sourceTree = "<group>"; };
+		903104481C2CEADC00AEFA94 /* leetcode009.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode009.cpp; path = ../../src/leetcode009/leetcode009.cpp; sourceTree = "<group>"; };
+		9031044A1C2CEAEB00AEFA94 /* leetcode010.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode010.cpp; path = ../../src/leetcode010/leetcode010.cpp; sourceTree = "<group>"; };
+		9031044C1C2CEAF800AEFA94 /* leetcode011.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode011.cpp; path = ../../src/leetcode011/leetcode011.cpp; sourceTree = "<group>"; };
+		903104601C2D1DF800AEFA94 /* leetcode012 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode012; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104691C2D1DF800AEFA94 /* leetcode013 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode013; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104721C2D1DF900AEFA94 /* leetcode014 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode014; sourceTree = BUILT_PRODUCTS_DIR; };
+		9031047B1C2D1DF900AEFA94 /* leetcode015 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode015; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104841C2D1DF900AEFA94 /* leetcode016 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode016; sourceTree = BUILT_PRODUCTS_DIR; };
+		9031048D1C2D1DF900AEFA94 /* leetcode017 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode017; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104961C2D1DF900AEFA94 /* leetcode018 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode018; sourceTree = BUILT_PRODUCTS_DIR; };
+		9031049F1C2D1DF900AEFA94 /* leetcode019 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode019; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104A81C2D1DFA00AEFA94 /* leetcode020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode020; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104B11C2D1DFA00AEFA94 /* leetcode021 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode021; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104BA1C2D1DFA00AEFA94 /* leetcode022 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode022; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104C31C2D1DFA00AEFA94 /* leetcode023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode023; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104CC1C2D1DFA00AEFA94 /* leetcode024 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode024; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104D51C2D1DFA00AEFA94 /* leetcode025 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode025; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104DE1C2D1DFB00AEFA94 /* leetcode026 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode026; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104E71C2D1E5700AEFA94 /* leetcode027 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode027; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104F01C2D1E5700AEFA94 /* leetcode028 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode028; sourceTree = BUILT_PRODUCTS_DIR; };
+		903104F91C2D1E5900AEFA94 /* leetcode029 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode029; sourceTree = BUILT_PRODUCTS_DIR; };
+		903105021C2D1E5900AEFA94 /* leetcode030 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode030; sourceTree = BUILT_PRODUCTS_DIR; };
+		903105031C2D1E8D00AEFA94 /* leetcode012.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode012.cpp; path = ../../src/leetcode012/leetcode012.cpp; sourceTree = "<group>"; };
+		903105061C2D1E9A00AEFA94 /* leetcode013.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode013.cpp; path = ../../src/leetcode013/leetcode013.cpp; sourceTree = "<group>"; };
+		903105081C2D1EBB00AEFA94 /* leetcode014.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode014.cpp; path = ../../src/leetcode014/leetcode014.cpp; sourceTree = "<group>"; };
+		9031050A1C2D1EC800AEFA94 /* leetcode015.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode015.cpp; path = ../../src/leetcode015/leetcode015.cpp; sourceTree = "<group>"; };
+		9031050C1C2D1ED500AEFA94 /* leetcode016.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode016.cpp; path = ../../src/leetcode016/leetcode016.cpp; sourceTree = "<group>"; };
+		9031050E1C2D1EE200AEFA94 /* leetcode017.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode017.cpp; path = ../../src/leetcode017/leetcode017.cpp; sourceTree = "<group>"; };
+		903105101C2D1F1100AEFA94 /* leetcode018.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode018.cpp; path = ../../src/leetcode018/leetcode018.cpp; sourceTree = "<group>"; };
+		903105121C2D1F2300AEFA94 /* leetcode019.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode019.cpp; path = ../../src/leetcode019/leetcode019.cpp; sourceTree = "<group>"; };
+		903105141C2D1F3400AEFA94 /* leetcode020.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode020.cpp; path = ../../src/leetcode020/leetcode020.cpp; sourceTree = "<group>"; };
+		903105161C2D1F4300AEFA94 /* leetcode021.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode021.cpp; path = ../../src/leetcode021/leetcode021.cpp; sourceTree = "<group>"; };
+		903105181C2D1F5100AEFA94 /* leetcode022.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode022.cpp; path = ../../src/leetcode022/leetcode022.cpp; sourceTree = "<group>"; };
+		9031051A1C2D1F6000AEFA94 /* leetcode023.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode023.cpp; path = ../../src/leetcode023/leetcode023.cpp; sourceTree = "<group>"; };
+		9031051C1C2D1F6E00AEFA94 /* leetcode024.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode024.cpp; path = ../../src/leetcode024/leetcode024.cpp; sourceTree = "<group>"; };
+		9031051E1C2D1F7E00AEFA94 /* leetcode025.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode025.cpp; path = ../../src/leetcode025/leetcode025.cpp; sourceTree = "<group>"; };
+		903105201C2D1F8B00AEFA94 /* leetcode026.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode026.cpp; path = ../../src/leetcode026/leetcode026.cpp; sourceTree = "<group>"; };
+		903105221C2D1F9700AEFA94 /* leetcode027.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode027.cpp; path = ../../src/leetcode027/leetcode027.cpp; sourceTree = "<group>"; };
+		903105241C2D1FA600AEFA94 /* leetcode028.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode028.cpp; path = ../../src/leetcode028/leetcode028.cpp; sourceTree = "<group>"; };
+		903105261C2D1FB400AEFA94 /* leetcode029.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode029.cpp; path = ../../src/leetcode029/leetcode029.cpp; sourceTree = "<group>"; };
+		903105281C2D1FC100AEFA94 /* leetcode030.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode030.cpp; path = ../../src/leetcode030/leetcode030.cpp; sourceTree = "<group>"; };
+		9045FFCC1D05687800016608 /* leetcode260 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode260; sourceTree = BUILT_PRODUCTS_DIR; };
+		904716801D24CE93002F59E3 /* leetcode260.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode260.cpp; path = ../../../src/leetcode260/leetcode260.cpp; sourceTree = "<group>"; };
+		904716821D24CEA5002F59E3 /* leetcode257.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode257.cpp; path = ../../../src/leetcode257/leetcode257.cpp; sourceTree = "<group>"; };
+		904716841D24CEB4002F59E3 /* leetcode206.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode206.cpp; path = ../../../src/leetcode206/leetcode206.cpp; sourceTree = "<group>"; };
+		904716861D24CEC8002F59E3 /* leetcode190.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode190.cpp; path = ../../../src/leetcode190/leetcode190.cpp; sourceTree = "<group>"; };
+		90D7CBAE1CD0DAFF0076F8B1 /* leetcode190 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode190; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DC8D691CED57CE0006E9CE /* leetcode206 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode206; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		902A4C9D1D1D129900B382BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903103CC1C2ACF7400AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903103DB1C2AD0EB00AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903103ED1C2CE99500AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903103F91C2CEA0B00AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104021C2CEA0D00AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9031040B1C2CEA0F00AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104141C2CEA1000AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9031041D1C2CEA1200AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104261C2CEA1300AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9031042F1C2CEA1400AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104381C2CEA1600AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9031045B1C2D1DF800AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104641C2D1DF800AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9031046D1C2D1DF900AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104761C2D1DF900AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9031047F1C2D1DF900AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104881C2D1DF900AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104911C2D1DF900AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9031049A1C2D1DF900AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104A31C2D1DFA00AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104AC1C2D1DFA00AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104B51C2D1DFA00AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104BE1C2D1DFA00AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104C71C2D1DFA00AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104D01C2D1DFA00AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104D91C2D1DFB00AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104E21C2D1E5700AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104EB1C2D1E5700AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104F41C2D1E5900AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104FD1C2D1E5900AEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9045FFC91D05687800016608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D7CBAB1CD0DAFF0076F8B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DC8D661CED57CE0006E9CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		902A4CA11D1D129900B382BB /* leetcode257 */ = {
+			isa = PBXGroup;
+			children = (
+				904716821D24CEA5002F59E3 /* leetcode257.cpp */,
+			);
+			path = leetcode257;
+			sourceTree = "<group>";
+		};
+		903103AB1C2ACD6D00AEFA94 = {
+			isa = PBXGroup;
+			children = (
+				903103C91C2ACE7D00AEFA94 /* leetcode001 */,
+				903103D71C2AD0E400AEFA94 /* leetcode002 */,
+				903103F51C2CE9BB00AEFA94 /* leetcode003 */,
+				903104501C2CEC8100AEFA94 /* leetcode004 */,
+				903104511C2CEC8900AEFA94 /* leetcode005 */,
+				903104521C2CEC8F00AEFA94 /* leetcode006 */,
+				903104531C2CEC9B00AEFA94 /* leetcode007 */,
+				903104541C2CECA300AEFA94 /* leetcode008 */,
+				903104551C2CED1D00AEFA94 /* leetcode009 */,
+				903104561C2CED2500AEFA94 /* leetcode010 */,
+				903104571C2CED2E00AEFA94 /* leetcode011 */,
+				9031052A1C2D1FC700AEFA94 /* leetcode012 */,
+				9031052B1C2D1FD300AEFA94 /* leetcode013 */,
+				9031052C1C2D1FEE00AEFA94 /* leetcode014 */,
+				9031052D1C2D1FF700AEFA94 /* leetcode015 */,
+				9031052E1C2D1FFD00AEFA94 /* leetcode016 */,
+				9031052F1C2D202100AEFA94 /* leetcode017 */,
+				903105301C2D203F00AEFA94 /* leetcode018 */,
+				903105311C2D204600AEFA94 /* leetcode019 */,
+				903105321C2D205500AEFA94 /* leetcode020 */,
+				903105331C2D20E800AEFA94 /* leetcode021 */,
+				903105341C2D20F600AEFA94 /* leetcode022 */,
+				903105351C2D20FE00AEFA94 /* leetcode023 */,
+				903105361C2D210600AEFA94 /* leetcode024 */,
+				903105371C2D210B00AEFA94 /* leetcode025 */,
+				903105381C2D211000AEFA94 /* leetcode026 */,
+				903105391C2D211900AEFA94 /* leetcode027 */,
+				9031053A1C2D212000AEFA94 /* leetcode028 */,
+				9031053B1C2D212500AEFA94 /* leetcode029 */,
+				9031053C1C2D212A00AEFA94 /* leetcode030 */,
+				90D7CBAF1CD0DAFF0076F8B1 /* leetcode190 */,
+				90DC8D6A1CED57CE0006E9CE /* leetcode206 */,
+				9045FFCD1D05687800016608 /* leetcode260 */,
+				902A4CA11D1D129900B382BB /* leetcode257 */,
+				903103B51C2ACD6D00AEFA94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		903103B51C2ACD6D00AEFA94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				903103CF1C2ACF7400AEFA94 /* leetcode001 */,
+				903103E01C2AD0EB00AEFA94 /* leetcode002 */,
+				903103F21C2CE99500AEFA94 /* leetcode003 */,
+				903103FE1C2CEA0B00AEFA94 /* leetcode004 */,
+				903104071C2CEA0D00AEFA94 /* leetcode005 */,
+				903104101C2CEA0F00AEFA94 /* leetcode006 */,
+				903104191C2CEA1000AEFA94 /* leetcode007 */,
+				903104221C2CEA1200AEFA94 /* leetcode008 */,
+				9031042B1C2CEA1300AEFA94 /* leetcode009 */,
+				903104341C2CEA1400AEFA94 /* leetcode010 */,
+				9031043D1C2CEA1600AEFA94 /* leetcode011 */,
+				903104601C2D1DF800AEFA94 /* leetcode012 */,
+				903104691C2D1DF800AEFA94 /* leetcode013 */,
+				903104721C2D1DF900AEFA94 /* leetcode014 */,
+				9031047B1C2D1DF900AEFA94 /* leetcode015 */,
+				903104841C2D1DF900AEFA94 /* leetcode016 */,
+				9031048D1C2D1DF900AEFA94 /* leetcode017 */,
+				903104961C2D1DF900AEFA94 /* leetcode018 */,
+				9031049F1C2D1DF900AEFA94 /* leetcode019 */,
+				903104A81C2D1DFA00AEFA94 /* leetcode020 */,
+				903104B11C2D1DFA00AEFA94 /* leetcode021 */,
+				903104BA1C2D1DFA00AEFA94 /* leetcode022 */,
+				903104C31C2D1DFA00AEFA94 /* leetcode023 */,
+				903104CC1C2D1DFA00AEFA94 /* leetcode024 */,
+				903104D51C2D1DFA00AEFA94 /* leetcode025 */,
+				903104DE1C2D1DFB00AEFA94 /* leetcode026 */,
+				903104E71C2D1E5700AEFA94 /* leetcode027 */,
+				903104F01C2D1E5700AEFA94 /* leetcode028 */,
+				903104F91C2D1E5900AEFA94 /* leetcode029 */,
+				903105021C2D1E5900AEFA94 /* leetcode030 */,
+				90D7CBAE1CD0DAFF0076F8B1 /* leetcode190 */,
+				90DC8D691CED57CE0006E9CE /* leetcode206 */,
+				9045FFCC1D05687800016608 /* leetcode260 */,
+				902A4CA01D1D129900B382BB /* leetcode257 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		903103C91C2ACE7D00AEFA94 /* leetcode001 */ = {
+			isa = PBXGroup;
+			children = (
+				903103E51C2CE88E00AEFA94 /* leetcode001.cpp */,
+			);
+			name = leetcode001;
+			sourceTree = "<group>";
+		};
+		903103D71C2AD0E400AEFA94 /* leetcode002 */ = {
+			isa = PBXGroup;
+			children = (
+				903103E81C2CE93100AEFA94 /* leetcode002.cpp */,
+			);
+			name = leetcode002;
+			sourceTree = "<group>";
+		};
+		903103F51C2CE9BB00AEFA94 /* leetcode003 */ = {
+			isa = PBXGroup;
+			children = (
+				903103F31C2CE9B400AEFA94 /* leetcode003.cpp */,
+			);
+			name = leetcode003;
+			sourceTree = "<group>";
+		};
+		903104501C2CEC8100AEFA94 /* leetcode004 */ = {
+			isa = PBXGroup;
+			children = (
+				9031043E1C2CEA8B00AEFA94 /* leetcode004.cpp */,
+			);
+			name = leetcode004;
+			sourceTree = "<group>";
+		};
+		903104511C2CEC8900AEFA94 /* leetcode005 */ = {
+			isa = PBXGroup;
+			children = (
+				903104401C2CEAA100AEFA94 /* leetcode005.cpp */,
+			);
+			name = leetcode005;
+			sourceTree = "<group>";
+		};
+		903104521C2CEC8F00AEFA94 /* leetcode006 */ = {
+			isa = PBXGroup;
+			children = (
+				903104421C2CEAAE00AEFA94 /* leetcode006.cpp */,
+			);
+			name = leetcode006;
+			sourceTree = "<group>";
+		};
+		903104531C2CEC9B00AEFA94 /* leetcode007 */ = {
+			isa = PBXGroup;
+			children = (
+				903104441C2CEAB900AEFA94 /* leetcode007.cpp */,
+			);
+			name = leetcode007;
+			sourceTree = "<group>";
+		};
+		903104541C2CECA300AEFA94 /* leetcode008 */ = {
+			isa = PBXGroup;
+			children = (
+				903104461C2CEACB00AEFA94 /* leetcode008.cpp */,
+			);
+			name = leetcode008;
+			sourceTree = "<group>";
+		};
+		903104551C2CED1D00AEFA94 /* leetcode009 */ = {
+			isa = PBXGroup;
+			children = (
+				903104481C2CEADC00AEFA94 /* leetcode009.cpp */,
+			);
+			name = leetcode009;
+			sourceTree = "<group>";
+		};
+		903104561C2CED2500AEFA94 /* leetcode010 */ = {
+			isa = PBXGroup;
+			children = (
+				9031044A1C2CEAEB00AEFA94 /* leetcode010.cpp */,
+			);
+			name = leetcode010;
+			sourceTree = "<group>";
+		};
+		903104571C2CED2E00AEFA94 /* leetcode011 */ = {
+			isa = PBXGroup;
+			children = (
+				9031044C1C2CEAF800AEFA94 /* leetcode011.cpp */,
+			);
+			name = leetcode011;
+			sourceTree = "<group>";
+		};
+		9031052A1C2D1FC700AEFA94 /* leetcode012 */ = {
+			isa = PBXGroup;
+			children = (
+				903105031C2D1E8D00AEFA94 /* leetcode012.cpp */,
+			);
+			name = leetcode012;
+			sourceTree = "<group>";
+		};
+		9031052B1C2D1FD300AEFA94 /* leetcode013 */ = {
+			isa = PBXGroup;
+			children = (
+				903105061C2D1E9A00AEFA94 /* leetcode013.cpp */,
+			);
+			name = leetcode013;
+			sourceTree = "<group>";
+		};
+		9031052C1C2D1FEE00AEFA94 /* leetcode014 */ = {
+			isa = PBXGroup;
+			children = (
+				903105081C2D1EBB00AEFA94 /* leetcode014.cpp */,
+			);
+			name = leetcode014;
+			sourceTree = "<group>";
+		};
+		9031052D1C2D1FF700AEFA94 /* leetcode015 */ = {
+			isa = PBXGroup;
+			children = (
+				9031050A1C2D1EC800AEFA94 /* leetcode015.cpp */,
+			);
+			name = leetcode015;
+			sourceTree = "<group>";
+		};
+		9031052E1C2D1FFD00AEFA94 /* leetcode016 */ = {
+			isa = PBXGroup;
+			children = (
+				9031050C1C2D1ED500AEFA94 /* leetcode016.cpp */,
+			);
+			name = leetcode016;
+			sourceTree = "<group>";
+		};
+		9031052F1C2D202100AEFA94 /* leetcode017 */ = {
+			isa = PBXGroup;
+			children = (
+				9031050E1C2D1EE200AEFA94 /* leetcode017.cpp */,
+			);
+			name = leetcode017;
+			sourceTree = "<group>";
+		};
+		903105301C2D203F00AEFA94 /* leetcode018 */ = {
+			isa = PBXGroup;
+			children = (
+				903105101C2D1F1100AEFA94 /* leetcode018.cpp */,
+			);
+			name = leetcode018;
+			sourceTree = "<group>";
+		};
+		903105311C2D204600AEFA94 /* leetcode019 */ = {
+			isa = PBXGroup;
+			children = (
+				903105121C2D1F2300AEFA94 /* leetcode019.cpp */,
+			);
+			name = leetcode019;
+			sourceTree = "<group>";
+		};
+		903105321C2D205500AEFA94 /* leetcode020 */ = {
+			isa = PBXGroup;
+			children = (
+				903105141C2D1F3400AEFA94 /* leetcode020.cpp */,
+			);
+			name = leetcode020;
+			sourceTree = "<group>";
+		};
+		903105331C2D20E800AEFA94 /* leetcode021 */ = {
+			isa = PBXGroup;
+			children = (
+				903105161C2D1F4300AEFA94 /* leetcode021.cpp */,
+			);
+			name = leetcode021;
+			sourceTree = "<group>";
+		};
+		903105341C2D20F600AEFA94 /* leetcode022 */ = {
+			isa = PBXGroup;
+			children = (
+				903105181C2D1F5100AEFA94 /* leetcode022.cpp */,
+			);
+			name = leetcode022;
+			sourceTree = "<group>";
+		};
+		903105351C2D20FE00AEFA94 /* leetcode023 */ = {
+			isa = PBXGroup;
+			children = (
+				9031051A1C2D1F6000AEFA94 /* leetcode023.cpp */,
+			);
+			name = leetcode023;
+			sourceTree = "<group>";
+		};
+		903105361C2D210600AEFA94 /* leetcode024 */ = {
+			isa = PBXGroup;
+			children = (
+				9031051C1C2D1F6E00AEFA94 /* leetcode024.cpp */,
+			);
+			name = leetcode024;
+			sourceTree = "<group>";
+		};
+		903105371C2D210B00AEFA94 /* leetcode025 */ = {
+			isa = PBXGroup;
+			children = (
+				9031051E1C2D1F7E00AEFA94 /* leetcode025.cpp */,
+			);
+			name = leetcode025;
+			sourceTree = "<group>";
+		};
+		903105381C2D211000AEFA94 /* leetcode026 */ = {
+			isa = PBXGroup;
+			children = (
+				903105201C2D1F8B00AEFA94 /* leetcode026.cpp */,
+			);
+			name = leetcode026;
+			sourceTree = "<group>";
+		};
+		903105391C2D211900AEFA94 /* leetcode027 */ = {
+			isa = PBXGroup;
+			children = (
+				903105221C2D1F9700AEFA94 /* leetcode027.cpp */,
+			);
+			name = leetcode027;
+			sourceTree = "<group>";
+		};
+		9031053A1C2D212000AEFA94 /* leetcode028 */ = {
+			isa = PBXGroup;
+			children = (
+				903105241C2D1FA600AEFA94 /* leetcode028.cpp */,
+			);
+			name = leetcode028;
+			sourceTree = "<group>";
+		};
+		9031053B1C2D212500AEFA94 /* leetcode029 */ = {
+			isa = PBXGroup;
+			children = (
+				903105261C2D1FB400AEFA94 /* leetcode029.cpp */,
+			);
+			name = leetcode029;
+			sourceTree = "<group>";
+		};
+		9031053C1C2D212A00AEFA94 /* leetcode030 */ = {
+			isa = PBXGroup;
+			children = (
+				903105281C2D1FC100AEFA94 /* leetcode030.cpp */,
+			);
+			name = leetcode030;
+			sourceTree = "<group>";
+		};
+		9045FFCD1D05687800016608 /* leetcode260 */ = {
+			isa = PBXGroup;
+			children = (
+				904716801D24CE93002F59E3 /* leetcode260.cpp */,
+			);
+			path = leetcode260;
+			sourceTree = "<group>";
+		};
+		90D7CBAF1CD0DAFF0076F8B1 /* leetcode190 */ = {
+			isa = PBXGroup;
+			children = (
+				904716861D24CEC8002F59E3 /* leetcode190.cpp */,
+			);
+			path = leetcode190;
+			sourceTree = "<group>";
+		};
+		90DC8D6A1CED57CE0006E9CE /* leetcode206 */ = {
+			isa = PBXGroup;
+			children = (
+				904716841D24CEB4002F59E3 /* leetcode206.cpp */,
+			);
+			path = leetcode206;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		902A4C9F1D1D129900B382BB /* leetcode257 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902A4CA61D1D129900B382BB /* Build configuration list for PBXNativeTarget "leetcode257" */;
+			buildPhases = (
+				902A4C9C1D1D129900B382BB /* Sources */,
+				902A4C9D1D1D129900B382BB /* Frameworks */,
+				902A4C9E1D1D129900B382BB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode257;
+			productName = leetcode257;
+			productReference = 902A4CA01D1D129900B382BB /* leetcode257 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903103CE1C2ACF7400AEFA94 /* leetcode001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903103D31C2ACF7400AEFA94 /* Build configuration list for PBXNativeTarget "leetcode001" */;
+			buildPhases = (
+				903103CB1C2ACF7400AEFA94 /* Sources */,
+				903103CC1C2ACF7400AEFA94 /* Frameworks */,
+				903103CD1C2ACF7400AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode001;
+			productName = leetcode001;
+			productReference = 903103CF1C2ACF7400AEFA94 /* leetcode001 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903103D81C2AD0EB00AEFA94 /* leetcode002 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903103DD1C2AD0EB00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode002" */;
+			buildPhases = (
+				903103D91C2AD0EB00AEFA94 /* Sources */,
+				903103DB1C2AD0EB00AEFA94 /* Frameworks */,
+				903103DC1C2AD0EB00AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode002;
+			productName = leetcode001;
+			productReference = 903103E01C2AD0EB00AEFA94 /* leetcode002 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903103EA1C2CE99500AEFA94 /* leetcode003 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903103EF1C2CE99500AEFA94 /* Build configuration list for PBXNativeTarget "leetcode003" */;
+			buildPhases = (
+				903103EB1C2CE99500AEFA94 /* Sources */,
+				903103ED1C2CE99500AEFA94 /* Frameworks */,
+				903103EE1C2CE99500AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode003;
+			productName = leetcode001;
+			productReference = 903103F21C2CE99500AEFA94 /* leetcode003 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903103F61C2CEA0B00AEFA94 /* leetcode004 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903103FB1C2CEA0B00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode004" */;
+			buildPhases = (
+				903103F71C2CEA0B00AEFA94 /* Sources */,
+				903103F91C2CEA0B00AEFA94 /* Frameworks */,
+				903103FA1C2CEA0B00AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode004;
+			productName = leetcode001;
+			productReference = 903103FE1C2CEA0B00AEFA94 /* leetcode004 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903103FF1C2CEA0D00AEFA94 /* leetcode005 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104041C2CEA0D00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode005" */;
+			buildPhases = (
+				903104001C2CEA0D00AEFA94 /* Sources */,
+				903104021C2CEA0D00AEFA94 /* Frameworks */,
+				903104031C2CEA0D00AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode005;
+			productName = leetcode001;
+			productReference = 903104071C2CEA0D00AEFA94 /* leetcode005 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104081C2CEA0F00AEFA94 /* leetcode006 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9031040D1C2CEA0F00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode006" */;
+			buildPhases = (
+				903104091C2CEA0F00AEFA94 /* Sources */,
+				9031040B1C2CEA0F00AEFA94 /* Frameworks */,
+				9031040C1C2CEA0F00AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode006;
+			productName = leetcode001;
+			productReference = 903104101C2CEA0F00AEFA94 /* leetcode006 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104111C2CEA1000AEFA94 /* leetcode007 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104161C2CEA1000AEFA94 /* Build configuration list for PBXNativeTarget "leetcode007" */;
+			buildPhases = (
+				903104121C2CEA1000AEFA94 /* Sources */,
+				903104141C2CEA1000AEFA94 /* Frameworks */,
+				903104151C2CEA1000AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode007;
+			productName = leetcode001;
+			productReference = 903104191C2CEA1000AEFA94 /* leetcode007 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9031041A1C2CEA1200AEFA94 /* leetcode008 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9031041F1C2CEA1200AEFA94 /* Build configuration list for PBXNativeTarget "leetcode008" */;
+			buildPhases = (
+				9031041B1C2CEA1200AEFA94 /* Sources */,
+				9031041D1C2CEA1200AEFA94 /* Frameworks */,
+				9031041E1C2CEA1200AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode008;
+			productName = leetcode001;
+			productReference = 903104221C2CEA1200AEFA94 /* leetcode008 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104231C2CEA1300AEFA94 /* leetcode009 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104281C2CEA1300AEFA94 /* Build configuration list for PBXNativeTarget "leetcode009" */;
+			buildPhases = (
+				903104241C2CEA1300AEFA94 /* Sources */,
+				903104261C2CEA1300AEFA94 /* Frameworks */,
+				903104271C2CEA1300AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode009;
+			productName = leetcode001;
+			productReference = 9031042B1C2CEA1300AEFA94 /* leetcode009 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9031042C1C2CEA1400AEFA94 /* leetcode010 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104311C2CEA1400AEFA94 /* Build configuration list for PBXNativeTarget "leetcode010" */;
+			buildPhases = (
+				9031042D1C2CEA1400AEFA94 /* Sources */,
+				9031042F1C2CEA1400AEFA94 /* Frameworks */,
+				903104301C2CEA1400AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode010;
+			productName = leetcode001;
+			productReference = 903104341C2CEA1400AEFA94 /* leetcode010 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104351C2CEA1600AEFA94 /* leetcode011 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9031043A1C2CEA1600AEFA94 /* Build configuration list for PBXNativeTarget "leetcode011" */;
+			buildPhases = (
+				903104361C2CEA1600AEFA94 /* Sources */,
+				903104381C2CEA1600AEFA94 /* Frameworks */,
+				903104391C2CEA1600AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode011;
+			productName = leetcode001;
+			productReference = 9031043D1C2CEA1600AEFA94 /* leetcode011 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104581C2D1DF800AEFA94 /* leetcode012 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9031045D1C2D1DF800AEFA94 /* Build configuration list for PBXNativeTarget "leetcode012" */;
+			buildPhases = (
+				903104591C2D1DF800AEFA94 /* Sources */,
+				9031045B1C2D1DF800AEFA94 /* Frameworks */,
+				9031045C1C2D1DF800AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode012;
+			productName = leetcode001;
+			productReference = 903104601C2D1DF800AEFA94 /* leetcode012 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104611C2D1DF800AEFA94 /* leetcode013 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104661C2D1DF800AEFA94 /* Build configuration list for PBXNativeTarget "leetcode013" */;
+			buildPhases = (
+				903104621C2D1DF800AEFA94 /* Sources */,
+				903104641C2D1DF800AEFA94 /* Frameworks */,
+				903104651C2D1DF800AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode013;
+			productName = leetcode001;
+			productReference = 903104691C2D1DF800AEFA94 /* leetcode013 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9031046A1C2D1DF900AEFA94 /* leetcode014 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9031046F1C2D1DF900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode014" */;
+			buildPhases = (
+				9031046B1C2D1DF900AEFA94 /* Sources */,
+				9031046D1C2D1DF900AEFA94 /* Frameworks */,
+				9031046E1C2D1DF900AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode014;
+			productName = leetcode001;
+			productReference = 903104721C2D1DF900AEFA94 /* leetcode014 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104731C2D1DF900AEFA94 /* leetcode015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104781C2D1DF900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode015" */;
+			buildPhases = (
+				903104741C2D1DF900AEFA94 /* Sources */,
+				903104761C2D1DF900AEFA94 /* Frameworks */,
+				903104771C2D1DF900AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode015;
+			productName = leetcode001;
+			productReference = 9031047B1C2D1DF900AEFA94 /* leetcode015 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9031047C1C2D1DF900AEFA94 /* leetcode016 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104811C2D1DF900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode016" */;
+			buildPhases = (
+				9031047D1C2D1DF900AEFA94 /* Sources */,
+				9031047F1C2D1DF900AEFA94 /* Frameworks */,
+				903104801C2D1DF900AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode016;
+			productName = leetcode001;
+			productReference = 903104841C2D1DF900AEFA94 /* leetcode016 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104851C2D1DF900AEFA94 /* leetcode017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9031048A1C2D1DF900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode017" */;
+			buildPhases = (
+				903104861C2D1DF900AEFA94 /* Sources */,
+				903104881C2D1DF900AEFA94 /* Frameworks */,
+				903104891C2D1DF900AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode017;
+			productName = leetcode001;
+			productReference = 9031048D1C2D1DF900AEFA94 /* leetcode017 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9031048E1C2D1DF900AEFA94 /* leetcode018 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104931C2D1DF900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode018" */;
+			buildPhases = (
+				9031048F1C2D1DF900AEFA94 /* Sources */,
+				903104911C2D1DF900AEFA94 /* Frameworks */,
+				903104921C2D1DF900AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode018;
+			productName = leetcode001;
+			productReference = 903104961C2D1DF900AEFA94 /* leetcode018 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104971C2D1DF900AEFA94 /* leetcode019 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9031049C1C2D1DF900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode019" */;
+			buildPhases = (
+				903104981C2D1DF900AEFA94 /* Sources */,
+				9031049A1C2D1DF900AEFA94 /* Frameworks */,
+				9031049B1C2D1DF900AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode019;
+			productName = leetcode001;
+			productReference = 9031049F1C2D1DF900AEFA94 /* leetcode019 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104A01C2D1DFA00AEFA94 /* leetcode020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104A51C2D1DFA00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode020" */;
+			buildPhases = (
+				903104A11C2D1DFA00AEFA94 /* Sources */,
+				903104A31C2D1DFA00AEFA94 /* Frameworks */,
+				903104A41C2D1DFA00AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode020;
+			productName = leetcode001;
+			productReference = 903104A81C2D1DFA00AEFA94 /* leetcode020 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104A91C2D1DFA00AEFA94 /* leetcode021 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104AE1C2D1DFA00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode021" */;
+			buildPhases = (
+				903104AA1C2D1DFA00AEFA94 /* Sources */,
+				903104AC1C2D1DFA00AEFA94 /* Frameworks */,
+				903104AD1C2D1DFA00AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode021;
+			productName = leetcode001;
+			productReference = 903104B11C2D1DFA00AEFA94 /* leetcode021 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104B21C2D1DFA00AEFA94 /* leetcode022 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104B71C2D1DFA00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode022" */;
+			buildPhases = (
+				903104B31C2D1DFA00AEFA94 /* Sources */,
+				903104B51C2D1DFA00AEFA94 /* Frameworks */,
+				903104B61C2D1DFA00AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode022;
+			productName = leetcode001;
+			productReference = 903104BA1C2D1DFA00AEFA94 /* leetcode022 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104BB1C2D1DFA00AEFA94 /* leetcode023 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104C01C2D1DFA00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode023" */;
+			buildPhases = (
+				903104BC1C2D1DFA00AEFA94 /* Sources */,
+				903104BE1C2D1DFA00AEFA94 /* Frameworks */,
+				903104BF1C2D1DFA00AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode023;
+			productName = leetcode001;
+			productReference = 903104C31C2D1DFA00AEFA94 /* leetcode023 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104C41C2D1DFA00AEFA94 /* leetcode024 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104C91C2D1DFA00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode024" */;
+			buildPhases = (
+				903104C51C2D1DFA00AEFA94 /* Sources */,
+				903104C71C2D1DFA00AEFA94 /* Frameworks */,
+				903104C81C2D1DFA00AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode024;
+			productName = leetcode001;
+			productReference = 903104CC1C2D1DFA00AEFA94 /* leetcode024 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104CD1C2D1DFA00AEFA94 /* leetcode025 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104D21C2D1DFA00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode025" */;
+			buildPhases = (
+				903104CE1C2D1DFA00AEFA94 /* Sources */,
+				903104D01C2D1DFA00AEFA94 /* Frameworks */,
+				903104D11C2D1DFA00AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode025;
+			productName = leetcode001;
+			productReference = 903104D51C2D1DFA00AEFA94 /* leetcode025 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104D61C2D1DFB00AEFA94 /* leetcode026 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104DB1C2D1DFB00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode026" */;
+			buildPhases = (
+				903104D71C2D1DFB00AEFA94 /* Sources */,
+				903104D91C2D1DFB00AEFA94 /* Frameworks */,
+				903104DA1C2D1DFB00AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode026;
+			productName = leetcode001;
+			productReference = 903104DE1C2D1DFB00AEFA94 /* leetcode026 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104DF1C2D1E5700AEFA94 /* leetcode027 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104E41C2D1E5700AEFA94 /* Build configuration list for PBXNativeTarget "leetcode027" */;
+			buildPhases = (
+				903104E01C2D1E5700AEFA94 /* Sources */,
+				903104E21C2D1E5700AEFA94 /* Frameworks */,
+				903104E31C2D1E5700AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode027;
+			productName = leetcode001;
+			productReference = 903104E71C2D1E5700AEFA94 /* leetcode027 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104E81C2D1E5700AEFA94 /* leetcode028 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104ED1C2D1E5700AEFA94 /* Build configuration list for PBXNativeTarget "leetcode028" */;
+			buildPhases = (
+				903104E91C2D1E5700AEFA94 /* Sources */,
+				903104EB1C2D1E5700AEFA94 /* Frameworks */,
+				903104EC1C2D1E5700AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode028;
+			productName = leetcode001;
+			productReference = 903104F01C2D1E5700AEFA94 /* leetcode028 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104F11C2D1E5900AEFA94 /* leetcode029 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104F61C2D1E5900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode029" */;
+			buildPhases = (
+				903104F21C2D1E5900AEFA94 /* Sources */,
+				903104F41C2D1E5900AEFA94 /* Frameworks */,
+				903104F51C2D1E5900AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode029;
+			productName = leetcode001;
+			productReference = 903104F91C2D1E5900AEFA94 /* leetcode029 */;
+			productType = "com.apple.product-type.tool";
+		};
+		903104FA1C2D1E5900AEFA94 /* leetcode030 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903104FF1C2D1E5900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode030" */;
+			buildPhases = (
+				903104FB1C2D1E5900AEFA94 /* Sources */,
+				903104FD1C2D1E5900AEFA94 /* Frameworks */,
+				903104FE1C2D1E5900AEFA94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode030;
+			productName = leetcode001;
+			productReference = 903105021C2D1E5900AEFA94 /* leetcode030 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9045FFCB1D05687800016608 /* leetcode260 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9045FFD21D05687800016608 /* Build configuration list for PBXNativeTarget "leetcode260" */;
+			buildPhases = (
+				9045FFC81D05687800016608 /* Sources */,
+				9045FFC91D05687800016608 /* Frameworks */,
+				9045FFCA1D05687800016608 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode260;
+			productName = leetcode260;
+			productReference = 9045FFCC1D05687800016608 /* leetcode260 */;
+			productType = "com.apple.product-type.tool";
+		};
+		90D7CBAD1CD0DAFF0076F8B1 /* leetcode190 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D7CBB41CD0DAFF0076F8B1 /* Build configuration list for PBXNativeTarget "leetcode190" */;
+			buildPhases = (
+				90D7CBAA1CD0DAFF0076F8B1 /* Sources */,
+				90D7CBAB1CD0DAFF0076F8B1 /* Frameworks */,
+				90D7CBAC1CD0DAFF0076F8B1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode190;
+			productName = leetcode190;
+			productReference = 90D7CBAE1CD0DAFF0076F8B1 /* leetcode190 */;
+			productType = "com.apple.product-type.tool";
+		};
+		90DC8D681CED57CE0006E9CE /* leetcode206 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90DC8D6D1CED57CE0006E9CE /* Build configuration list for PBXNativeTarget "leetcode206" */;
+			buildPhases = (
+				90DC8D651CED57CE0006E9CE /* Sources */,
+				90DC8D661CED57CE0006E9CE /* Frameworks */,
+				90DC8D671CED57CE0006E9CE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode206;
+			productName = leetcode206;
+			productReference = 90DC8D691CED57CE0006E9CE /* leetcode206 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		903103AC1C2ACD6D00AEFA94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zencher;
+				TargetAttributes = {
+					902A4C9F1D1D129900B382BB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					903103CE1C2ACF7400AEFA94 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9045FFCB1D05687800016608 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					90D7CBAD1CD0DAFF0076F8B1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					90DC8D681CED57CE0006E9CE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 903103AF1C2ACD6D00AEFA94 /* Build configuration list for PBXProject "leetcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 903103AB1C2ACD6D00AEFA94;
+			productRefGroup = 903103B51C2ACD6D00AEFA94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				903103CE1C2ACF7400AEFA94 /* leetcode001 */,
+				903103D81C2AD0EB00AEFA94 /* leetcode002 */,
+				903103EA1C2CE99500AEFA94 /* leetcode003 */,
+				903103F61C2CEA0B00AEFA94 /* leetcode004 */,
+				903103FF1C2CEA0D00AEFA94 /* leetcode005 */,
+				903104081C2CEA0F00AEFA94 /* leetcode006 */,
+				903104111C2CEA1000AEFA94 /* leetcode007 */,
+				9031041A1C2CEA1200AEFA94 /* leetcode008 */,
+				903104231C2CEA1300AEFA94 /* leetcode009 */,
+				9031042C1C2CEA1400AEFA94 /* leetcode010 */,
+				903104351C2CEA1600AEFA94 /* leetcode011 */,
+				903104581C2D1DF800AEFA94 /* leetcode012 */,
+				903104611C2D1DF800AEFA94 /* leetcode013 */,
+				9031046A1C2D1DF900AEFA94 /* leetcode014 */,
+				903104731C2D1DF900AEFA94 /* leetcode015 */,
+				9031047C1C2D1DF900AEFA94 /* leetcode016 */,
+				903104851C2D1DF900AEFA94 /* leetcode017 */,
+				9031048E1C2D1DF900AEFA94 /* leetcode018 */,
+				903104971C2D1DF900AEFA94 /* leetcode019 */,
+				903104A01C2D1DFA00AEFA94 /* leetcode020 */,
+				903104A91C2D1DFA00AEFA94 /* leetcode021 */,
+				903104B21C2D1DFA00AEFA94 /* leetcode022 */,
+				903104BB1C2D1DFA00AEFA94 /* leetcode023 */,
+				903104C41C2D1DFA00AEFA94 /* leetcode024 */,
+				903104CD1C2D1DFA00AEFA94 /* leetcode025 */,
+				903104D61C2D1DFB00AEFA94 /* leetcode026 */,
+				903104DF1C2D1E5700AEFA94 /* leetcode027 */,
+				903104E81C2D1E5700AEFA94 /* leetcode028 */,
+				903104F11C2D1E5900AEFA94 /* leetcode029 */,
+				903104FA1C2D1E5900AEFA94 /* leetcode030 */,
+				90D7CBAD1CD0DAFF0076F8B1 /* leetcode190 */,
+				90DC8D681CED57CE0006E9CE /* leetcode206 */,
+				9045FFCB1D05687800016608 /* leetcode260 */,
+				902A4C9F1D1D129900B382BB /* leetcode257 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		902A4C9C1D1D129900B382BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904716831D24CEA5002F59E3 /* leetcode257.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903103CB1C2ACF7400AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903103E61C2CE88E00AEFA94 /* leetcode001.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903103D91C2AD0EB00AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903103E91C2CE93100AEFA94 /* leetcode002.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903103EB1C2CE99500AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903103F41C2CE9B400AEFA94 /* leetcode003.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903103F71C2CEA0B00AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9031043F1C2CEA8B00AEFA94 /* leetcode004.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104001C2CEA0D00AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903104411C2CEAA100AEFA94 /* leetcode005.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104091C2CEA0F00AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903104431C2CEAAE00AEFA94 /* leetcode006.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104121C2CEA1000AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9031044E1C2CEB0E00AEFA94 /* leetcode007.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9031041B1C2CEA1200AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903104471C2CEACB00AEFA94 /* leetcode008.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104241C2CEA1300AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9031044F1C2CEB1900AEFA94 /* leetcode009.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9031042D1C2CEA1400AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9031044B1C2CEAEB00AEFA94 /* leetcode010.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104361C2CEA1600AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9031044D1C2CEAF800AEFA94 /* leetcode011.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104591C2D1DF800AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903105051C2D1E8D00AEFA94 /* leetcode012.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104621C2D1DF800AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903105071C2D1E9A00AEFA94 /* leetcode013.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9031046B1C2D1DF900AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903105091C2D1EBB00AEFA94 /* leetcode014.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104741C2D1DF900AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9031050B1C2D1EC800AEFA94 /* leetcode015.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9031047D1C2D1DF900AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9031050D1C2D1ED500AEFA94 /* leetcode016.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104861C2D1DF900AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9031050F1C2D1EE200AEFA94 /* leetcode017.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9031048F1C2D1DF900AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903105111C2D1F1100AEFA94 /* leetcode018.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104981C2D1DF900AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903105131C2D1F2300AEFA94 /* leetcode019.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104A11C2D1DFA00AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903105151C2D1F3400AEFA94 /* leetcode020.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104AA1C2D1DFA00AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903105171C2D1F4300AEFA94 /* leetcode021.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104B31C2D1DFA00AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903105191C2D1F5100AEFA94 /* leetcode022.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104BC1C2D1DFA00AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9031051B1C2D1F6000AEFA94 /* leetcode023.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104C51C2D1DFA00AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9031051D1C2D1F6E00AEFA94 /* leetcode024.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104CE1C2D1DFA00AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9031051F1C2D1F7E00AEFA94 /* leetcode025.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104D71C2D1DFB00AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903105211C2D1F8B00AEFA94 /* leetcode026.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104E01C2D1E5700AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903105231C2D1F9700AEFA94 /* leetcode027.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104E91C2D1E5700AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903105251C2D1FA600AEFA94 /* leetcode028.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104F21C2D1E5900AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903105271C2D1FB400AEFA94 /* leetcode029.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903104FB1C2D1E5900AEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903105291C2D1FC100AEFA94 /* leetcode030.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9045FFC81D05687800016608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904716811D24CE93002F59E3 /* leetcode260.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D7CBAA1CD0DAFF0076F8B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904716871D24CEC8002F59E3 /* leetcode190.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DC8D651CED57CE0006E9CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904716851D24CEB4002F59E3 /* leetcode206.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		902A4CA41D1D129900B382BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		902A4CA51D1D129900B382BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903103B91C2ACD6D00AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		903103BA1C2ACD6D00AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		903103D41C2ACF7400AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903103D51C2ACF7400AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903103DE1C2AD0EB00AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903103DF1C2AD0EB00AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903103F01C2CE99500AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903103F11C2CE99500AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903103FC1C2CEA0B00AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903103FD1C2CEA0B00AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104051C2CEA0D00AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104061C2CEA0D00AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9031040E1C2CEA0F00AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9031040F1C2CEA0F00AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104171C2CEA1000AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104181C2CEA1000AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104201C2CEA1200AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104211C2CEA1200AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104291C2CEA1300AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9031042A1C2CEA1300AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104321C2CEA1400AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104331C2CEA1400AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9031043B1C2CEA1600AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9031043C1C2CEA1600AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9031045E1C2D1DF800AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9031045F1C2D1DF800AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104671C2D1DF800AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104681C2D1DF800AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104701C2D1DF900AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104711C2D1DF900AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104791C2D1DF900AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9031047A1C2D1DF900AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104821C2D1DF900AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104831C2D1DF900AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9031048B1C2D1DF900AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9031048C1C2D1DF900AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104941C2D1DF900AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104951C2D1DF900AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9031049D1C2D1DF900AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9031049E1C2D1DF900AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104A61C2D1DFA00AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104A71C2D1DFA00AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104AF1C2D1DFA00AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104B01C2D1DFA00AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104B81C2D1DFA00AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104B91C2D1DFA00AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104C11C2D1DFA00AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104C21C2D1DFA00AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104CA1C2D1DFA00AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104CB1C2D1DFA00AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104D31C2D1DFA00AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104D41C2D1DFA00AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104DC1C2D1DFB00AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104DD1C2D1DFB00AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104E51C2D1E5700AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104E61C2D1E5700AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104EE1C2D1E5700AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104EF1C2D1E5700AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903104F71C2D1E5900AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903104F81C2D1E5900AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903105001C2D1E5900AEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903105011C2D1E5900AEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9045FFD01D05687800016608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9045FFD11D05687800016608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90D7CBB21CD0DAFF0076F8B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90D7CBB31CD0DAFF0076F8B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90DC8D6E1CED57CE0006E9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90DC8D6F1CED57CE0006E9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		902A4CA61D1D129900B382BB /* Build configuration list for PBXNativeTarget "leetcode257" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902A4CA41D1D129900B382BB /* Debug */,
+				902A4CA51D1D129900B382BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903103AF1C2ACD6D00AEFA94 /* Build configuration list for PBXProject "leetcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903103B91C2ACD6D00AEFA94 /* Debug */,
+				903103BA1C2ACD6D00AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903103D31C2ACF7400AEFA94 /* Build configuration list for PBXNativeTarget "leetcode001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903103D41C2ACF7400AEFA94 /* Debug */,
+				903103D51C2ACF7400AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903103DD1C2AD0EB00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode002" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903103DE1C2AD0EB00AEFA94 /* Debug */,
+				903103DF1C2AD0EB00AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903103EF1C2CE99500AEFA94 /* Build configuration list for PBXNativeTarget "leetcode003" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903103F01C2CE99500AEFA94 /* Debug */,
+				903103F11C2CE99500AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903103FB1C2CEA0B00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode004" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903103FC1C2CEA0B00AEFA94 /* Debug */,
+				903103FD1C2CEA0B00AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104041C2CEA0D00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode005" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104051C2CEA0D00AEFA94 /* Debug */,
+				903104061C2CEA0D00AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9031040D1C2CEA0F00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode006" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9031040E1C2CEA0F00AEFA94 /* Debug */,
+				9031040F1C2CEA0F00AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104161C2CEA1000AEFA94 /* Build configuration list for PBXNativeTarget "leetcode007" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104171C2CEA1000AEFA94 /* Debug */,
+				903104181C2CEA1000AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9031041F1C2CEA1200AEFA94 /* Build configuration list for PBXNativeTarget "leetcode008" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104201C2CEA1200AEFA94 /* Debug */,
+				903104211C2CEA1200AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104281C2CEA1300AEFA94 /* Build configuration list for PBXNativeTarget "leetcode009" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104291C2CEA1300AEFA94 /* Debug */,
+				9031042A1C2CEA1300AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104311C2CEA1400AEFA94 /* Build configuration list for PBXNativeTarget "leetcode010" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104321C2CEA1400AEFA94 /* Debug */,
+				903104331C2CEA1400AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9031043A1C2CEA1600AEFA94 /* Build configuration list for PBXNativeTarget "leetcode011" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9031043B1C2CEA1600AEFA94 /* Debug */,
+				9031043C1C2CEA1600AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9031045D1C2D1DF800AEFA94 /* Build configuration list for PBXNativeTarget "leetcode012" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9031045E1C2D1DF800AEFA94 /* Debug */,
+				9031045F1C2D1DF800AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104661C2D1DF800AEFA94 /* Build configuration list for PBXNativeTarget "leetcode013" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104671C2D1DF800AEFA94 /* Debug */,
+				903104681C2D1DF800AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9031046F1C2D1DF900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104701C2D1DF900AEFA94 /* Debug */,
+				903104711C2D1DF900AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104781C2D1DF900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104791C2D1DF900AEFA94 /* Debug */,
+				9031047A1C2D1DF900AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104811C2D1DF900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104821C2D1DF900AEFA94 /* Debug */,
+				903104831C2D1DF900AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9031048A1C2D1DF900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9031048B1C2D1DF900AEFA94 /* Debug */,
+				9031048C1C2D1DF900AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104931C2D1DF900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104941C2D1DF900AEFA94 /* Debug */,
+				903104951C2D1DF900AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9031049C1C2D1DF900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9031049D1C2D1DF900AEFA94 /* Debug */,
+				9031049E1C2D1DF900AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104A51C2D1DFA00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104A61C2D1DFA00AEFA94 /* Debug */,
+				903104A71C2D1DFA00AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104AE1C2D1DFA00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104AF1C2D1DFA00AEFA94 /* Debug */,
+				903104B01C2D1DFA00AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104B71C2D1DFA00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104B81C2D1DFA00AEFA94 /* Debug */,
+				903104B91C2D1DFA00AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104C01C2D1DFA00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104C11C2D1DFA00AEFA94 /* Debug */,
+				903104C21C2D1DFA00AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104C91C2D1DFA00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode024" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104CA1C2D1DFA00AEFA94 /* Debug */,
+				903104CB1C2D1DFA00AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104D21C2D1DFA00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode025" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104D31C2D1DFA00AEFA94 /* Debug */,
+				903104D41C2D1DFA00AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104DB1C2D1DFB00AEFA94 /* Build configuration list for PBXNativeTarget "leetcode026" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104DC1C2D1DFB00AEFA94 /* Debug */,
+				903104DD1C2D1DFB00AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104E41C2D1E5700AEFA94 /* Build configuration list for PBXNativeTarget "leetcode027" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104E51C2D1E5700AEFA94 /* Debug */,
+				903104E61C2D1E5700AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104ED1C2D1E5700AEFA94 /* Build configuration list for PBXNativeTarget "leetcode028" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104EE1C2D1E5700AEFA94 /* Debug */,
+				903104EF1C2D1E5700AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104F61C2D1E5900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode029" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903104F71C2D1E5900AEFA94 /* Debug */,
+				903104F81C2D1E5900AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903104FF1C2D1E5900AEFA94 /* Build configuration list for PBXNativeTarget "leetcode030" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903105001C2D1E5900AEFA94 /* Debug */,
+				903105011C2D1E5900AEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9045FFD21D05687800016608 /* Build configuration list for PBXNativeTarget "leetcode260" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9045FFD01D05687800016608 /* Debug */,
+				9045FFD11D05687800016608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D7CBB41CD0DAFF0076F8B1 /* Build configuration list for PBXNativeTarget "leetcode190" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D7CBB21CD0DAFF0076F8B1 /* Debug */,
+				90D7CBB31CD0DAFF0076F8B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90DC8D6D1CED57CE0006E9CE /* Build configuration list for PBXNativeTarget "leetcode206" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DC8D6E1CED57CE0006E9CE /* Debug */,
+				90DC8D6F1CED57CE0006E9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 903103AC1C2ACD6D00AEFA94 /* Project object */;
+}
