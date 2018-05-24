@@ -21,13 +21,21 @@ public:
 		return s1.top();
 	}
 	int getMin() {
-		if (s2.empty())  return INT_MAX;
+		if (s2.empty())  return __INT_MAX__;
 		return s2.top();
 	}
 };
 
 int main()
 {
-	return 0;
+    MinStack stack;
+    
+    stack.push(10);
+    stack.push(8);
+    stack.push(12);
+    stack.push(20);
+    
+    int min = stack.getMin();
+    printf("the min number is : %d\n", min);
 }
 
