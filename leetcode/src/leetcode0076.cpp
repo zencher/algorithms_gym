@@ -1,4 +1,4 @@
-// leetcode076.cpp : 定义控制台应用程序的入口点。
+// leetcode076.cpp
 //
 // Minimum Window Substring
 // 	Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n). 

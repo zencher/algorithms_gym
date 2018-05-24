@@ -1,4 +1,4 @@
-// leetcode048.cpp : 定义控制台应用程序的入口点。
+// leetcode048.cpp
 //
 // Rotate Image
 // 	You are given an n x n 2D matrix representing an image.

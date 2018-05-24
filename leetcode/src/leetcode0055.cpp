@@ -1,4 +1,4 @@
-// leetcode055.cpp : 定义控制台应用程序的入口点。
+// leetcode055.cpp
 //
 // Jump Game
 // 	Given an array of non-negative integers, you are initially positioned at the first index of the array.

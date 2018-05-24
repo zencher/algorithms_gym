@@ -1,4 +1,4 @@
-// leetcode043.cpp : 定义控制台应用程序的入口点。
+// leetcode043.cpp
 //
 // Multiply Strings
 // 	Given two numbers represented as strings, return multiplication of the numbers as a string.

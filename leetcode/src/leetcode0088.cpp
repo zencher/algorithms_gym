@@ -1,4 +1,4 @@
-// leetcode088.cpp : 定义控制台应用程序的入口点。
+// leetcode088.cpp
 //
 // Merge Sorted Array
 //	Given two sorted integer arrays A and B, merge B into A as one sorted array.

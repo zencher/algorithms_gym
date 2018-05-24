@@ -1,4 +1,4 @@
-// leetcode061.cpp : 定义控制台应用程序的入口点。
+// leetcode061.cpp
 //
 // Rotate List
 // 	Given a list, rotate the list to the right by k places, where k is non-negative.

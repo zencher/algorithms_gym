@@ -1,4 +1,4 @@
-// leetcode083.cpp : 定义控制台应用程序的入口点。
+// leetcode083.cpp
 //
 //	Remove Duplicates from Sorted List
 // 	Given a sorted linked list, delete all duplicates such that each element appear only once.

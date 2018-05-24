@@ -1,4 +1,4 @@
-// leetcode047.cpp : 定义控制台应用程序的入口点。
+// leetcode047.cpp
 //
 // Permutations II
 // 	Given a collection of numbers that might contain duplicates, return all possible unique permutations.

@@ -1,4 +1,4 @@
-// leetcode079.cpp : 定义控制台应用程序的入口点。
+// leetcode079.cpp
 //
 // 	Word Search
 // 	Given a 2D board and a word, find if the word exists in the grid.

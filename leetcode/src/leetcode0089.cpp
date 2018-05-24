@@ -1,4 +1,4 @@
-// leetcode089.cpp : 定义控制台应用程序的入口点。
+// leetcode089.cpp
 //
 // Gray Code
 // 	The gray code is a binary numeral system where two successive values differ in only one bit.

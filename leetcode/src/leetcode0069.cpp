@@ -1,4 +1,4 @@
-// leetcode069.cpp : 定义控制台应用程序的入口点。
+// leetcode069.cpp
 //
 // Sqrt(x)
 // 	Implement int sqrt(int x).

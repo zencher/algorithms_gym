@@ -1,4 +1,4 @@
-// leetcode066.cpp : 定义控制台应用程序的入口点。
+// leetcode066.cpp
 //
 // Plus One
 // 	Given a non-negative number represented as an array of digits, plus one to the number. 

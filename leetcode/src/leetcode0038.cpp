@@ -1,4 +1,4 @@
-// leetcode038.cpp : 定义控制台应用程序的入口点。
+// leetcode038.cpp
 //
 // Count and Say 
 // 	The count-and-say sequence is the sequence of integers beginning as follows:

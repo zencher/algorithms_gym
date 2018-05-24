@@ -1,6 +1,4 @@
-//
-//  main.cpp
-//  leetcode206
+//  leetcode206.cpp
 //
 //  Created by zencher on 16/5/19.
 //  Copyright © 2016年 zencher. All rights reserved.

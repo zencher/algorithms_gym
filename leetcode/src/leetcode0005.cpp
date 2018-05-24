@@ -1,4 +1,4 @@
-// leetcode005.cpp : 定义控制台应用程序的入口点。
+// leetcode005.cpp
 //
 
 #include <vector>

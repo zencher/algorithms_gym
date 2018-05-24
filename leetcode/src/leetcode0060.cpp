@@ -1,4 +1,4 @@
-// leetcode060.cpp : 定义控制台应用程序的入口点。
+// leetcode060.cpp
 //
 // Permutation Sequence
 // 	The set [1,2,3,...,n] contains a total of n! unique permutations.

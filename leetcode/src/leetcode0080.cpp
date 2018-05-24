@@ -1,4 +1,4 @@
-// leetcode080.cpp : 定义控制台应用程序的入口点。
+// leetcode080.cpp
 //
 // 	Remove Duplicates
 // 	Follow up for "Remove Duplicates":

@@ -1,4 +1,4 @@
-// leetcode040.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
+ï»¿// leetcode040.cpp
 //
 // Combination Sum II
 // Given a collection of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.

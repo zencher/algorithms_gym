@@ -1,4 +1,4 @@
-// leetcode073.cpp : 定义控制台应用程序的入口点。
+// leetcode073.cpp
 //
 // Set Matrix Zeroes
 // 	Given a m x n matrix, if an element is 0, set its entire row and column to 0. Do it in place.

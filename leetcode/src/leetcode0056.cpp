@@ -1,4 +1,4 @@
-// leetcode056.cpp : 定义控制台应用程序的入口点。
+// leetcode056.cpp
 //
 // Merge Intervals
 //	Given a collection of intervals, merge all overlapping intervals.

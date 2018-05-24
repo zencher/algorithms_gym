@@ -1,4 +1,4 @@
-// leetcode028.cpp : 定义控制台应用程序的入口点。
+// leetcode028.cpp
 //
 // Divide Two Integers Total
 //

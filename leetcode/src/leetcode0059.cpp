@@ -1,4 +1,4 @@
-// leetcode059.cpp : 定义控制台应用程序的入口点。
+// leetcode059.cpp
 //
 // Spiral Matrix II
 // 	Given an integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.

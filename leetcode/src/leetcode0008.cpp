@@ -1,4 +1,4 @@
-// leetcode008.cpp : ∂®“Âøÿ÷∆Ã®”¶”√≥Ã–Úµƒ»Îø⁄µ„°£
+// leetcode008.cpp
 //
 
 class Solution

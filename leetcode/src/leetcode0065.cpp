@@ -1,4 +1,4 @@
-// leetcode065.cpp : 定义控制台应用程序的入口点。
+// leetcode065.cpp
 //
 // Valid Number 	
 // 	Validate if a given string is numeric.

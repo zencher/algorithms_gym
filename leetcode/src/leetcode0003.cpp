@@ -1,4 +1,4 @@
-// leetcode003.cpp : 定义控制台应用程序的入口点。
+// leetcode003.cpp
 //
 // Longest Substring Without Repeating Characters 
 // 	Given a string, find the length of the longest substring without repeating characters.

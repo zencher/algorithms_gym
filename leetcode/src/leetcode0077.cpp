@@ -1,4 +1,4 @@
-// leetcode077.cpp : 定义控制台应用程序的入口点。
+// leetcode077.cpp
 //
 // 	Combinations
 // 	Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.

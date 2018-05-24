@@ -1,4 +1,4 @@
-// leetcode074.cpp : 定义控制台应用程序的入口点。
+// leetcode074.cpp
 //
 // Search a 2D Matrix Total Accepted: 27900 Total Submissions: 89310 My Submissions Question Solution 
 // 	Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:

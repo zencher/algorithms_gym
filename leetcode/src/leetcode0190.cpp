@@ -1,6 +1,4 @@
-//
-//  main.cpp
-//  leetcode0190
+//  leetcode0190.cpp
 //
 //  Created by zencher on 16/4/27.
 //  Copyright © 2016年 zencher. All rights reserved.

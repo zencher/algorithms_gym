@@ -1,4 +1,4 @@
-// leetcode049.cpp : 定义控制台应用程序的入口点。
+// leetcode049.cpp
 //
 // Anagrams Total
 // 	Given an array of strings, return all groups of strings that are anagrams.

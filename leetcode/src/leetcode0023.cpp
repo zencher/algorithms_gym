@@ -1,4 +1,4 @@
-// leetcode023.cpp : 定义控制台应用程序的入口点。
+// leetcode023.cpp
 //
 // Merge k Sorted Lists
 // 	Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.

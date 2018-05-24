@@ -1,4 +1,4 @@
-// leetcode081.cpp : 定义控制台应用程序的入口点。
+// leetcode081.cpp
 //
 // 	Search in Rotated Sorted Array II
 // 	Follow up for "Search in Rotated Sorted Array":

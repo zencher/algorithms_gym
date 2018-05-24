@@ -1,4 +1,4 @@
-// leetcode131.cpp : 定义控制台应用程序的入口点。
+// leetcode131.cpp
 //
 
 #include <string>

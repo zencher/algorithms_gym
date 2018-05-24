@@ -1,4 +1,4 @@
-// leetcode068.cpp : 定义控制台应用程序的入口点。
+// leetcode068.cpp
 //
 // Text Justification
 // 	Given an array of words and a length L, format the text such that each line has exactly L characters and is fully (left and right) justified.

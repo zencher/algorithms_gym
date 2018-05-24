@@ -1,6 +1,4 @@
-//
-//  main.cpp
-//  leetcode257
+//  leetcode257.cpp
 //
 //  Created by zencher on 16/6/24.
 //  Copyright © 2016年 zencher. All rights reserved.

@@ -1,4 +1,4 @@
-// leetcode082.cpp : 定义控制台应用程序的入口点。
+// leetcode082.cpp
 //
 //	Remove Duplicates from Sorted List II
 // 	Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.

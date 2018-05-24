@@ -1,4 +1,4 @@
-// leetcode098.cpp : 定义控制台应用程序的入口点。
+// leetcode098.cpp
 //
 // Validate Binary Search Tree
 //	Given a binary tree, determine if it is a valid binary search tree (BST).

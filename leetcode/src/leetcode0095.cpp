@@ -1,4 +1,4 @@
-// leetcode095.cpp : 定义控制台应用程序的入口点。
+// leetcode095.cpp
 //
 // Unique Binary Search Trees II 
 // 	Given n, generate all structurally unique BST's (binary search trees) that store values 1...n.

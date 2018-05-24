@@ -1,4 +1,4 @@
-// leetcode021.cpp : 定义控制台应用程序的入口点。
+// leetcode021.cpp
 //
 // Merge Two Sorted Lists
 // 	Merge two sorted linked lists and return it as a new list.

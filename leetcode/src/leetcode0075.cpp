@@ -1,4 +1,4 @@
-// leetcode075.cpp : 定义控制台应用程序的入口点。
+// leetcode075.cpp
 //
 // Sort Colors
 // 	Given an array with n objects colored red, white or blue, sort them so that objects of the same color are adjacent, with the colors in the order red, white and blue.

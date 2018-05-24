@@ -1,4 +1,4 @@
-// leetcode099.cpp : 定义控制台应用程序的入口点。
+// leetcode099.cpp
 //
 // Recover Binary Search Tree:
 //	Two elements of a binary search tree (BST) are swapped by mistake.

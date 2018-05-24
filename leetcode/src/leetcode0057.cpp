@@ -1,4 +1,4 @@
-// leetcode057.cpp : 定义控制台应用程序的入口点。
+// leetcode057.cpp
 //
 // Insert Interval
 // 	Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).

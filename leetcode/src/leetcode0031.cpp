@@ -1,4 +1,4 @@
-// leetcode031.cpp : 定义控制台应用程序的入口点。
+// leetcode031.cpp
 //
 // Next Permutation
 // 	Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.

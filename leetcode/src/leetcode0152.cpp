@@ -1,4 +1,4 @@
-// leetcode152.cpp : 定义控制台应用程序的入口点。
+// leetcode152.cpp
 //
 // Maximum Product Subarray
 //

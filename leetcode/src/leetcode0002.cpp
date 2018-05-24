@@ -1,4 +1,4 @@
-// leetcode002.cpp : 定义控制台应用程序的入口点。
+// leetcode002.cpp
 //
 // Median of Two Sorted Arrays
 //	There are two sorted arrays A and B of size m and n respectively.

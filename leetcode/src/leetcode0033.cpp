@@ -1,4 +1,4 @@
-// leetcode033.cpp : 定义控制台应用程序的入口点。
+// leetcode033.cpp
 //
 // Search for a Range Total
 // 	Given a sorted array of integers, find the starting and ending position of a given target value.

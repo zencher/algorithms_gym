@@ -1,4 +1,4 @@
-// leetcode039.cpp : 定义控制台应用程序的入口点。
+// leetcode039.cpp
 //
 // Combination Sum
 // 	Given a set of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.

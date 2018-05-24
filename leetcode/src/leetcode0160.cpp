@@ -1,6 +1,5 @@
-// leetcode160.cpp : 定义控制台应用程序的入口点。
+// leetcode160.cpp
 //
-
 // Intersection of Two Linked Lists
 // Write a program to find the node at which the intersection of two singly linked lists begins.
 // 

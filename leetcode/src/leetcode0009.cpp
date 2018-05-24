@@ -1,4 +1,4 @@
-// leetcode009.cpp : 定义控制台应用程序的入口点。
+// leetcode009.cpp
 //
 
 class Solution

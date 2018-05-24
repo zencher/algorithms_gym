@@ -1,4 +1,4 @@
-// leetcode058.cpp : 定义控制台应用程序的入口点。
+// leetcode058.cpp
 //
 // Length of Last Word
 //	Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.

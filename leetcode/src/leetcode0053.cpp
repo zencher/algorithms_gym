@@ -1,4 +1,4 @@
-// leetcode053.cpp : 定义控制台应用程序的入口点。
+// leetcode053.cpp
 //
 // Maximum Subarray
 // 	Find the contiguous subarray within an array (containing at least one number) which has the largest sum.

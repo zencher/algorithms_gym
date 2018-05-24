@@ -1,4 +1,4 @@
-// leetcode078.cpp : 定义控制台应用程序的入口点。
+// leetcode078.cpp
 //
 // 	Subsets
 // 	Given a set of distinct integers, S, return all possible subsets.

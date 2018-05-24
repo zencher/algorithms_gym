@@ -1,4 +1,4 @@
-// leetcode071.cpp : 定义控制台应用程序的入口点。
+// leetcode071.cpp
 //
 // Simplify Path
 // 	Given an absolute path for a file (Unix-style), simplify it.

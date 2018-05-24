@@ -1,4 +1,4 @@
-// leetcode052.cpp : 定义控制台应用程序的入口点。
+// leetcode052.cpp
 //
 // N-Queens II
 // 	Follow up for N-Queens problem.

@@ -1,4 +1,4 @@
-// leetcode022.cpp : 定义控制台应用程序的入口点。
+// leetcode022.cpp
 //
 // Generate Parentheses
 // 	Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.

@@ -1,4 +1,4 @@
-// leetcode0001.cpp : ∂®“Âøÿ÷∆Ã®”¶”√≥Ã–Úµƒ»Îø⁄µ„°£
+// leetcode0001.cpp
 //
 // Two Sum
 //

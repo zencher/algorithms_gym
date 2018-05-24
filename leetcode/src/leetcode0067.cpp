@@ -1,4 +1,4 @@
-// leetcode067.cpp : 定义控制台应用程序的入口点。
+// leetcode067.cpp
 //
 // Add Binary
 // 	Given two binary strings, return their sum (also a binary string).
