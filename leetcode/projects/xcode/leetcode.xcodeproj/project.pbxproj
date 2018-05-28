@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		906F5A6D20BAC08A007F3EDF /* leetcode0167.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906F5A6C20BAC08A007F3EDF /* leetcode0167.cpp */; };
 		9098156A1DB4CCB800B98889 /* leetcode0001.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909814271DB4CC1700B98889 /* leetcode0001.cpp */; };
 		909815941DB4CD5E00B98889 /* leetcode0002.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909814281DB4CC1700B98889 /* leetcode0002.cpp */; };
 		909817791DB4D30A00B98889 /* leetcode0003.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909814291DB4CC1700B98889 /* leetcode0003.cpp */; };
@@ -165,6 +166,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		906F5A6320BABE48007F3EDF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		909815611DB4CC9D00B98889 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1626,6 +1636,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		906F5A6520BABE48007F3EDF /* leetcode0167 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode0167; sourceTree = BUILT_PRODUCTS_DIR; };
+		906F5A6C20BAC08A007F3EDF /* leetcode0167.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode0167.cpp; path = ../../src/leetcode0167.cpp; sourceTree = "<group>"; };
 		909814271DB4CC1700B98889 /* leetcode0001.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode0001.cpp; path = ../../src/leetcode0001.cpp; sourceTree = "<group>"; };
 		909814281DB4CC1700B98889 /* leetcode0002.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode0002.cpp; path = ../../src/leetcode0002.cpp; sourceTree = "<group>"; };
 		909814291DB4CC1700B98889 /* leetcode0003.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode0003.cpp; path = ../../src/leetcode0003.cpp; sourceTree = "<group>"; };
@@ -1947,6 +1959,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		906F5A6220BABE48007F3EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		909815601DB4CC9D00B98889 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -3257,6 +3276,7 @@
 				90981D121DB5BCCE00B98889 /* leetcode0257 */,
 				90981D1E1DB5BCE000B98889 /* leetcode0260 */,
 				90981D2B1DB5BCFC00B98889 /* leetcode0374 */,
+				906F5A6520BABE48007F3EDF /* leetcode0167 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3415,6 +3435,7 @@
 				909814BB1DB4CC1700B98889 /* leetcode0155.cpp */,
 				909814BC1DB4CC1700B98889 /* leetcode0160.cpp */,
 				909814BD1DB4CC1700B98889 /* leetcode0162.cpp */,
+				906F5A6C20BAC08A007F3EDF /* leetcode0167.cpp */,
 				909814BE1DB4CC1700B98889 /* leetcode0190.cpp */,
 				909814BF1DB4CC1700B98889 /* leetcode0206.cpp */,
 				909814C01DB4CC1700B98889 /* leetcode0257.cpp */,
@@ -3427,6 +3448,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		906F5A6420BABE48007F3EDF /* leetcode0167 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906F5A6B20BABE49007F3EDF /* Build configuration list for PBXNativeTarget "leetcode0167" */;
+			buildPhases = (
+				906F5A6120BABE48007F3EDF /* Sources */,
+				906F5A6220BABE48007F3EDF /* Frameworks */,
+				906F5A6320BABE48007F3EDF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode0167;
+			productName = leetcode0167;
+			productReference = 906F5A6520BABE48007F3EDF /* leetcode0167 */;
+			productType = "com.apple.product-type.tool";
+		};
 		909815621DB4CC9D00B98889 /* leetcode0001 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 909815671DB4CC9D00B98889 /* Build configuration list for PBXNativeTarget "leetcode0001" */;
@@ -6190,6 +6228,10 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = zencher;
 				TargetAttributes = {
+					906F5A6420BABE48007F3EDF = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					909815621DB4CC9D00B98889 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
@@ -7014,11 +7056,20 @@
 				90981D111DB5BCCE00B98889 /* leetcode0257 */,
 				90981D1D1DB5BCE000B98889 /* leetcode0260 */,
 				90981D2A1DB5BCFC00B98889 /* leetcode0374 */,
+				906F5A6420BABE48007F3EDF /* leetcode0167 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		906F5A6120BABE48007F3EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906F5A6D20BAC08A007F3EDF /* leetcode0167.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9098155F1DB4CC9D00B98889 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -8311,6 +8362,52 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		906F5A6920BABE49007F3EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		906F5A6A20BABE49007F3EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		909814211DB4CBD000B98889 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -10669,6 +10766,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		906F5A6B20BABE49007F3EDF /* Build configuration list for PBXNativeTarget "leetcode0167" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906F5A6920BABE49007F3EDF /* Debug */,
+				906F5A6A20BABE49007F3EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		909814171DB4CBD000B98889 /* Build configuration list for PBXProject "leetcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -10685,6 +10791,7 @@
 				909815691DB4CC9D00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909815731DB4CD0B00B98889 /* Build configuration list for PBXNativeTarget "leetcode0002" */ = {
 			isa = XCConfigurationList;
@@ -10693,6 +10800,7 @@
 				909815751DB4CD0B00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098159D1DB4CD7600B98889 /* Build configuration list for PBXNativeTarget "leetcode0003" */ = {
 			isa = XCConfigurationList;
@@ -10701,6 +10809,7 @@
 				9098159F1DB4CD7600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909815A81DB4CD8400B98889 /* Build configuration list for PBXNativeTarget "leetcode0004" */ = {
 			isa = XCConfigurationList;
@@ -10709,6 +10818,7 @@
 				909815AA1DB4CD8400B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909815B31DB4CD8B00B98889 /* Build configuration list for PBXNativeTarget "leetcode0005" */ = {
 			isa = XCConfigurationList;
@@ -10717,6 +10827,7 @@
 				909815B51DB4CD8B00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909815BE1DB4CD9700B98889 /* Build configuration list for PBXNativeTarget "leetcode0006" */ = {
 			isa = XCConfigurationList;
@@ -10725,6 +10836,7 @@
 				909815C01DB4CD9700B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909815C91DB4CD9E00B98889 /* Build configuration list for PBXNativeTarget "leetcode0007" */ = {
 			isa = XCConfigurationList;
@@ -10733,6 +10845,7 @@
 				909815CB1DB4CD9E00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909815D41DB4CDA600B98889 /* Build configuration list for PBXNativeTarget "leetcode0008" */ = {
 			isa = XCConfigurationList;
@@ -10741,6 +10854,7 @@
 				909815D61DB4CDA600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909815DF1DB4D1A800B98889 /* Build configuration list for PBXNativeTarget "leetcode0009" */ = {
 			isa = XCConfigurationList;
@@ -10749,6 +10863,7 @@
 				909815E11DB4D1A800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909815EA1DB4D1AF00B98889 /* Build configuration list for PBXNativeTarget "leetcode0010" */ = {
 			isa = XCConfigurationList;
@@ -10757,6 +10872,7 @@
 				909815EC1DB4D1AF00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909815F51DB4D1B700B98889 /* Build configuration list for PBXNativeTarget "leetcode0011" */ = {
 			isa = XCConfigurationList;
@@ -10765,6 +10881,7 @@
 				909815F71DB4D1B700B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816001DB4D1BD00B98889 /* Build configuration list for PBXNativeTarget "leetcode0012" */ = {
 			isa = XCConfigurationList;
@@ -10773,6 +10890,7 @@
 				909816021DB4D1BD00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098160B1DB4D1C600B98889 /* Build configuration list for PBXNativeTarget "leetcode0013" */ = {
 			isa = XCConfigurationList;
@@ -10781,6 +10899,7 @@
 				9098160D1DB4D1C600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816161DB4D1CD00B98889 /* Build configuration list for PBXNativeTarget "leetcode0014" */ = {
 			isa = XCConfigurationList;
@@ -10789,6 +10908,7 @@
 				909816181DB4D1CD00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816211DB4D1D300B98889 /* Build configuration list for PBXNativeTarget "leetcode0015" */ = {
 			isa = XCConfigurationList;
@@ -10797,6 +10917,7 @@
 				909816231DB4D1D300B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098162C1DB4D1DA00B98889 /* Build configuration list for PBXNativeTarget "leetcode0016" */ = {
 			isa = XCConfigurationList;
@@ -10805,6 +10926,7 @@
 				9098162E1DB4D1DA00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816371DB4D1E100B98889 /* Build configuration list for PBXNativeTarget "leetcode0017" */ = {
 			isa = XCConfigurationList;
@@ -10813,6 +10935,7 @@
 				909816391DB4D1E100B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816421DB4D1E700B98889 /* Build configuration list for PBXNativeTarget "leetcode0018" */ = {
 			isa = XCConfigurationList;
@@ -10821,6 +10944,7 @@
 				909816441DB4D1E700B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098164D1DB4D1ED00B98889 /* Build configuration list for PBXNativeTarget "leetcode0019" */ = {
 			isa = XCConfigurationList;
@@ -10829,6 +10953,7 @@
 				9098164F1DB4D1ED00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816581DB4D20200B98889 /* Build configuration list for PBXNativeTarget "leetcode0020" */ = {
 			isa = XCConfigurationList;
@@ -10837,6 +10962,7 @@
 				9098165A1DB4D20200B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816631DB4D20A00B98889 /* Build configuration list for PBXNativeTarget "leetcode0021" */ = {
 			isa = XCConfigurationList;
@@ -10845,6 +10971,7 @@
 				909816651DB4D20A00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098166E1DB4D21400B98889 /* Build configuration list for PBXNativeTarget "leetcode0022" */ = {
 			isa = XCConfigurationList;
@@ -10853,6 +10980,7 @@
 				909816701DB4D21400B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816791DB4D22600B98889 /* Build configuration list for PBXNativeTarget "leetcode0023" */ = {
 			isa = XCConfigurationList;
@@ -10861,6 +10989,7 @@
 				9098167B1DB4D22600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816841DB4D22C00B98889 /* Build configuration list for PBXNativeTarget "leetcode0024" */ = {
 			isa = XCConfigurationList;
@@ -10869,6 +10998,7 @@
 				909816861DB4D22C00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098168F1DB4D23200B98889 /* Build configuration list for PBXNativeTarget "leetcode0025" */ = {
 			isa = XCConfigurationList;
@@ -10877,6 +11007,7 @@
 				909816911DB4D23200B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098169A1DB4D23C00B98889 /* Build configuration list for PBXNativeTarget "leetcode0027" */ = {
 			isa = XCConfigurationList;
@@ -10885,6 +11016,7 @@
 				9098169C1DB4D23C00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816A51DB4D24600B98889 /* Build configuration list for PBXNativeTarget "leetcode0026" */ = {
 			isa = XCConfigurationList;
@@ -10893,6 +11025,7 @@
 				909816A71DB4D24600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816B01DB4D26100B98889 /* Build configuration list for PBXNativeTarget "leetcode0028" */ = {
 			isa = XCConfigurationList;
@@ -10901,6 +11034,7 @@
 				909816B21DB4D26100B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816BB1DB4D26900B98889 /* Build configuration list for PBXNativeTarget "leetcode0029" */ = {
 			isa = XCConfigurationList;
@@ -10909,6 +11043,7 @@
 				909816BD1DB4D26900B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816C61DB4D26F00B98889 /* Build configuration list for PBXNativeTarget "leetcode0030" */ = {
 			isa = XCConfigurationList;
@@ -10917,6 +11052,7 @@
 				909816C81DB4D26F00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816D11DB4D27600B98889 /* Build configuration list for PBXNativeTarget "leetcode0031" */ = {
 			isa = XCConfigurationList;
@@ -10925,6 +11061,7 @@
 				909816D31DB4D27600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816DC1DB4D27F00B98889 /* Build configuration list for PBXNativeTarget "leetcode0033" */ = {
 			isa = XCConfigurationList;
@@ -10933,6 +11070,7 @@
 				909816DE1DB4D27F00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816E71DB4D28600B98889 /* Build configuration list for PBXNativeTarget "leetcode0032" */ = {
 			isa = XCConfigurationList;
@@ -10941,6 +11079,7 @@
 				909816E91DB4D28600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816F21DB4D29700B98889 /* Build configuration list for PBXNativeTarget "leetcode0034" */ = {
 			isa = XCConfigurationList;
@@ -10949,6 +11088,7 @@
 				909816F41DB4D29700B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909816FD1DB4D29E00B98889 /* Build configuration list for PBXNativeTarget "leetcode0035" */ = {
 			isa = XCConfigurationList;
@@ -10957,6 +11097,7 @@
 				909816FF1DB4D29E00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817081DB4D2A400B98889 /* Build configuration list for PBXNativeTarget "leetcode0036" */ = {
 			isa = XCConfigurationList;
@@ -10965,6 +11106,7 @@
 				9098170A1DB4D2A400B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817131DB4D2AA00B98889 /* Build configuration list for PBXNativeTarget "leetcode0037" */ = {
 			isa = XCConfigurationList;
@@ -10973,6 +11115,7 @@
 				909817151DB4D2AA00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098171E1DB4D2B100B98889 /* Build configuration list for PBXNativeTarget "leetcode0038" */ = {
 			isa = XCConfigurationList;
@@ -10981,6 +11124,7 @@
 				909817201DB4D2B100B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817291DB4D2B800B98889 /* Build configuration list for PBXNativeTarget "leetcode0039" */ = {
 			isa = XCConfigurationList;
@@ -10989,6 +11133,7 @@
 				9098172B1DB4D2B800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817341DB4D2C200B98889 /* Build configuration list for PBXNativeTarget "leetcode0040" */ = {
 			isa = XCConfigurationList;
@@ -10997,6 +11142,7 @@
 				909817361DB4D2C200B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098173F1DB4D2C900B98889 /* Build configuration list for PBXNativeTarget "leetcode0042" */ = {
 			isa = XCConfigurationList;
@@ -11005,6 +11151,7 @@
 				909817411DB4D2C900B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098174A1DB4D2D000B98889 /* Build configuration list for PBXNativeTarget "leetcode0041" */ = {
 			isa = XCConfigurationList;
@@ -11013,6 +11160,7 @@
 				9098174C1DB4D2D000B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817551DB4D2E300B98889 /* Build configuration list for PBXNativeTarget "leetcode0043" */ = {
 			isa = XCConfigurationList;
@@ -11021,6 +11169,7 @@
 				909817571DB4D2E300B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817601DB4D2E900B98889 /* Build configuration list for PBXNativeTarget "leetcode0044" */ = {
 			isa = XCConfigurationList;
@@ -11029,6 +11178,7 @@
 				909817621DB4D2E900B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098176B1DB4D2F100B98889 /* Build configuration list for PBXNativeTarget "leetcode0046" */ = {
 			isa = XCConfigurationList;
@@ -11037,6 +11187,7 @@
 				9098176D1DB4D2F100B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817761DB4D2F700B98889 /* Build configuration list for PBXNativeTarget "leetcode0045" */ = {
 			isa = XCConfigurationList;
@@ -11045,6 +11196,7 @@
 				909817781DB4D2F700B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817AF1DB4D5BD00B98889 /* Build configuration list for PBXNativeTarget "leetcode0047" */ = {
 			isa = XCConfigurationList;
@@ -11053,6 +11205,7 @@
 				909817B11DB4D5BD00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817BA1DB4D5C400B98889 /* Build configuration list for PBXNativeTarget "leetcode0048" */ = {
 			isa = XCConfigurationList;
@@ -11061,6 +11214,7 @@
 				909817BC1DB4D5C400B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817C51DB4D5D200B98889 /* Build configuration list for PBXNativeTarget "leetcode0049" */ = {
 			isa = XCConfigurationList;
@@ -11069,6 +11223,7 @@
 				909817C71DB4D5D200B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817D01DB4D5D900B98889 /* Build configuration list for PBXNativeTarget "leetcode0050" */ = {
 			isa = XCConfigurationList;
@@ -11077,6 +11232,7 @@
 				909817D21DB4D5D900B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817DB1DB4D5E700B98889 /* Build configuration list for PBXNativeTarget "leetcode0051" */ = {
 			isa = XCConfigurationList;
@@ -11085,6 +11241,7 @@
 				909817DD1DB4D5E700B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817E61DB4D5EF00B98889 /* Build configuration list for PBXNativeTarget "leetcode0052" */ = {
 			isa = XCConfigurationList;
@@ -11093,6 +11250,7 @@
 				909817E81DB4D5EF00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817F11DB4D5F500B98889 /* Build configuration list for PBXNativeTarget "leetcode0053" */ = {
 			isa = XCConfigurationList;
@@ -11101,6 +11259,7 @@
 				909817F31DB4D5F500B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909817FC1DB4D5FC00B98889 /* Build configuration list for PBXNativeTarget "leetcode0054" */ = {
 			isa = XCConfigurationList;
@@ -11109,6 +11268,7 @@
 				909817FE1DB4D5FC00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818071DB4D60B00B98889 /* Build configuration list for PBXNativeTarget "leetcode0055" */ = {
 			isa = XCConfigurationList;
@@ -11117,6 +11277,7 @@
 				909818091DB4D60B00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818121DB4D61100B98889 /* Build configuration list for PBXNativeTarget "leetcode0056" */ = {
 			isa = XCConfigurationList;
@@ -11125,6 +11286,7 @@
 				909818141DB4D61100B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098181D1DB4D61900B98889 /* Build configuration list for PBXNativeTarget "leetcode0057" */ = {
 			isa = XCConfigurationList;
@@ -11133,6 +11295,7 @@
 				9098181F1DB4D61900B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818281DB4D61F00B98889 /* Build configuration list for PBXNativeTarget "leetcode0058" */ = {
 			isa = XCConfigurationList;
@@ -11141,6 +11304,7 @@
 				9098182A1DB4D61F00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818331DB4D62700B98889 /* Build configuration list for PBXNativeTarget "leetcode0059" */ = {
 			isa = XCConfigurationList;
@@ -11149,6 +11313,7 @@
 				909818351DB4D62700B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818491DB4D64600B98889 /* Build configuration list for PBXNativeTarget "leetcode0060" */ = {
 			isa = XCConfigurationList;
@@ -11157,6 +11322,7 @@
 				9098184B1DB4D64600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818541DB4D64C00B98889 /* Build configuration list for PBXNativeTarget "leetcode0061" */ = {
 			isa = XCConfigurationList;
@@ -11165,6 +11331,7 @@
 				909818561DB4D64C00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098185F1DB4D65200B98889 /* Build configuration list for PBXNativeTarget "leetcode0062" */ = {
 			isa = XCConfigurationList;
@@ -11173,6 +11340,7 @@
 				909818611DB4D65200B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098186A1DB4D65C00B98889 /* Build configuration list for PBXNativeTarget "leetcode0063" */ = {
 			isa = XCConfigurationList;
@@ -11181,6 +11349,7 @@
 				9098186C1DB4D65C00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818751DB4D66200B98889 /* Build configuration list for PBXNativeTarget "leetcode0064" */ = {
 			isa = XCConfigurationList;
@@ -11189,6 +11358,7 @@
 				909818771DB4D66200B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818801DB4D66900B98889 /* Build configuration list for PBXNativeTarget "leetcode0065" */ = {
 			isa = XCConfigurationList;
@@ -11197,6 +11367,7 @@
 				909818821DB4D66900B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098188B1DB4D66F00B98889 /* Build configuration list for PBXNativeTarget "leetcode0066" */ = {
 			isa = XCConfigurationList;
@@ -11205,6 +11376,7 @@
 				9098188D1DB4D66F00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818961DB4D67600B98889 /* Build configuration list for PBXNativeTarget "leetcode0067" */ = {
 			isa = XCConfigurationList;
@@ -11213,6 +11385,7 @@
 				909818981DB4D67600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818A11DB4D67E00B98889 /* Build configuration list for PBXNativeTarget "leetcode0068" */ = {
 			isa = XCConfigurationList;
@@ -11221,6 +11394,7 @@
 				909818A31DB4D67E00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818AC1DB4D68400B98889 /* Build configuration list for PBXNativeTarget "leetcode0069" */ = {
 			isa = XCConfigurationList;
@@ -11229,6 +11403,7 @@
 				909818AE1DB4D68400B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818B71DB4D68A00B98889 /* Build configuration list for PBXNativeTarget "leetcode0070" */ = {
 			isa = XCConfigurationList;
@@ -11237,6 +11412,7 @@
 				909818B91DB4D68A00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818C21DB4D6B000B98889 /* Build configuration list for PBXNativeTarget "leetcode0071" */ = {
 			isa = XCConfigurationList;
@@ -11245,6 +11421,7 @@
 				909818C41DB4D6B000B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818CD1DB4D6B600B98889 /* Build configuration list for PBXNativeTarget "leetcode0072" */ = {
 			isa = XCConfigurationList;
@@ -11253,6 +11430,7 @@
 				909818CF1DB4D6B600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818D81DB4D6BC00B98889 /* Build configuration list for PBXNativeTarget "leetcode0073" */ = {
 			isa = XCConfigurationList;
@@ -11261,6 +11439,7 @@
 				909818DA1DB4D6BC00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818E31DB4D6C600B98889 /* Build configuration list for PBXNativeTarget "leetcode0074" */ = {
 			isa = XCConfigurationList;
@@ -11269,6 +11448,7 @@
 				909818E51DB4D6C600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818EE1DB4D6CC00B98889 /* Build configuration list for PBXNativeTarget "leetcode0075" */ = {
 			isa = XCConfigurationList;
@@ -11277,6 +11457,7 @@
 				909818F01DB4D6CC00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909818F91DB4D6D200B98889 /* Build configuration list for PBXNativeTarget "leetcode0076" */ = {
 			isa = XCConfigurationList;
@@ -11285,6 +11466,7 @@
 				909818FB1DB4D6D200B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819041DB4D6D900B98889 /* Build configuration list for PBXNativeTarget "leetcode0077" */ = {
 			isa = XCConfigurationList;
@@ -11293,6 +11475,7 @@
 				909819061DB4D6D900B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098190F1DB4D6DF00B98889 /* Build configuration list for PBXNativeTarget "leetcode0078" */ = {
 			isa = XCConfigurationList;
@@ -11301,6 +11484,7 @@
 				909819111DB4D6DF00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098191A1DB4D6E900B98889 /* Build configuration list for PBXNativeTarget "leetcode0079" */ = {
 			isa = XCConfigurationList;
@@ -11309,6 +11493,7 @@
 				9098191C1DB4D6E900B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819251DB4D6EF00B98889 /* Build configuration list for PBXNativeTarget "leetcode0080" */ = {
 			isa = XCConfigurationList;
@@ -11317,6 +11502,7 @@
 				909819271DB4D6EF00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819301DB4D6F500B98889 /* Build configuration list for PBXNativeTarget "leetcode0081" */ = {
 			isa = XCConfigurationList;
@@ -11325,6 +11511,7 @@
 				909819321DB4D6F500B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098193B1DB4D6FD00B98889 /* Build configuration list for PBXNativeTarget "leetcode0082" */ = {
 			isa = XCConfigurationList;
@@ -11333,6 +11520,7 @@
 				9098193D1DB4D6FD00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819461DB4D70400B98889 /* Build configuration list for PBXNativeTarget "leetcode0083" */ = {
 			isa = XCConfigurationList;
@@ -11341,6 +11529,7 @@
 				909819481DB4D70400B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819511DB4D70B00B98889 /* Build configuration list for PBXNativeTarget "leetcode0084" */ = {
 			isa = XCConfigurationList;
@@ -11349,6 +11538,7 @@
 				909819531DB4D70B00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098195C1DB4D71200B98889 /* Build configuration list for PBXNativeTarget "leetcode0085" */ = {
 			isa = XCConfigurationList;
@@ -11357,6 +11547,7 @@
 				9098195E1DB4D71200B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819671DB4D72200B98889 /* Build configuration list for PBXNativeTarget "leetcode0086" */ = {
 			isa = XCConfigurationList;
@@ -11365,6 +11556,7 @@
 				909819691DB4D72200B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819721DB4D73200B98889 /* Build configuration list for PBXNativeTarget "leetcode0087" */ = {
 			isa = XCConfigurationList;
@@ -11373,6 +11565,7 @@
 				909819741DB4D73200B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098197D1DB4D73800B98889 /* Build configuration list for PBXNativeTarget "leetcode0088" */ = {
 			isa = XCConfigurationList;
@@ -11381,6 +11574,7 @@
 				9098197F1DB4D73800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819881DB4D73D00B98889 /* Build configuration list for PBXNativeTarget "leetcode0089" */ = {
 			isa = XCConfigurationList;
@@ -11389,6 +11583,7 @@
 				9098198A1DB4D73D00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819931DB4D74500B98889 /* Build configuration list for PBXNativeTarget "leetcode0090" */ = {
 			isa = XCConfigurationList;
@@ -11397,6 +11592,7 @@
 				909819951DB4D74500B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9098199E1DB4D74A00B98889 /* Build configuration list for PBXNativeTarget "leetcode0091" */ = {
 			isa = XCConfigurationList;
@@ -11405,6 +11601,7 @@
 				909819A01DB4D74A00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819A91DB4D75000B98889 /* Build configuration list for PBXNativeTarget "leetcode0092" */ = {
 			isa = XCConfigurationList;
@@ -11413,6 +11610,7 @@
 				909819AB1DB4D75000B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819B41DB4D77800B98889 /* Build configuration list for PBXNativeTarget "leetcode0093" */ = {
 			isa = XCConfigurationList;
@@ -11421,6 +11619,7 @@
 				909819B61DB4D77800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819BF1DB4D77E00B98889 /* Build configuration list for PBXNativeTarget "leetcode0094" */ = {
 			isa = XCConfigurationList;
@@ -11429,6 +11628,7 @@
 				909819C11DB4D77E00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819CA1DB4D78300B98889 /* Build configuration list for PBXNativeTarget "leetcode0095" */ = {
 			isa = XCConfigurationList;
@@ -11437,6 +11637,7 @@
 				909819CC1DB4D78300B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819D51DB4D78900B98889 /* Build configuration list for PBXNativeTarget "leetcode0096" */ = {
 			isa = XCConfigurationList;
@@ -11445,6 +11646,7 @@
 				909819D71DB4D78900B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819E01DB4D78F00B98889 /* Build configuration list for PBXNativeTarget "leetcode0098" */ = {
 			isa = XCConfigurationList;
@@ -11453,6 +11655,7 @@
 				909819E21DB4D78F00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819EB1DB4D79400B98889 /* Build configuration list for PBXNativeTarget "leetcode0097" */ = {
 			isa = XCConfigurationList;
@@ -11461,6 +11664,7 @@
 				909819ED1DB4D79400B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		909819F61DB4D79A00B98889 /* Build configuration list for PBXNativeTarget "leetcode0099" */ = {
 			isa = XCConfigurationList;
@@ -11469,6 +11673,7 @@
 				909819F81DB4D79A00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981A011DB4D7A100B98889 /* Build configuration list for PBXNativeTarget "leetcode0100" */ = {
 			isa = XCConfigurationList;
@@ -11477,6 +11682,7 @@
 				90981A031DB4D7A100B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981A3D1DB5B67300B98889 /* Build configuration list for PBXNativeTarget "leetcode0101" */ = {
 			isa = XCConfigurationList;
@@ -11485,6 +11691,7 @@
 				90981A3F1DB5B67300B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981A491DB5B68F00B98889 /* Build configuration list for PBXNativeTarget "leetcode0102" */ = {
 			isa = XCConfigurationList;
@@ -11493,6 +11700,7 @@
 				90981A4B1DB5B68F00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981A551DB5B6A100B98889 /* Build configuration list for PBXNativeTarget "leetcode0103" */ = {
 			isa = XCConfigurationList;
@@ -11501,6 +11709,7 @@
 				90981A571DB5B6A100B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981A611DB5B6B700B98889 /* Build configuration list for PBXNativeTarget "leetcode0104" */ = {
 			isa = XCConfigurationList;
@@ -11509,6 +11718,7 @@
 				90981A631DB5B6B700B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981A6D1DB5B6C700B98889 /* Build configuration list for PBXNativeTarget "leetcode0105" */ = {
 			isa = XCConfigurationList;
@@ -11517,6 +11727,7 @@
 				90981A6F1DB5B6C700B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981A791DB5B6DB00B98889 /* Build configuration list for PBXNativeTarget "leetcode0106" */ = {
 			isa = XCConfigurationList;
@@ -11525,6 +11736,7 @@
 				90981A7B1DB5B6DB00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981A851DB5B6F300B98889 /* Build configuration list for PBXNativeTarget "leetcode0107" */ = {
 			isa = XCConfigurationList;
@@ -11533,6 +11745,7 @@
 				90981A871DB5B6F300B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981A901DB5B74A00B98889 /* Build configuration list for PBXNativeTarget "leetcode0108" */ = {
 			isa = XCConfigurationList;
@@ -11541,6 +11754,7 @@
 				90981A921DB5B74A00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981A9C1DB5B75B00B98889 /* Build configuration list for PBXNativeTarget "leetcode0109" */ = {
 			isa = XCConfigurationList;
@@ -11549,6 +11763,7 @@
 				90981A9E1DB5B75B00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981AA81DB5B77100B98889 /* Build configuration list for PBXNativeTarget "leetcode0110" */ = {
 			isa = XCConfigurationList;
@@ -11557,6 +11772,7 @@
 				90981AAA1DB5B77100B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981AB41DB5B78100B98889 /* Build configuration list for PBXNativeTarget "leetcode0111" */ = {
 			isa = XCConfigurationList;
@@ -11565,6 +11781,7 @@
 				90981AB61DB5B78100B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981AC01DB5B79200B98889 /* Build configuration list for PBXNativeTarget "leetcode0112" */ = {
 			isa = XCConfigurationList;
@@ -11573,6 +11790,7 @@
 				90981AC21DB5B79200B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981ACC1DB5B79F00B98889 /* Build configuration list for PBXNativeTarget "leetcode0113" */ = {
 			isa = XCConfigurationList;
@@ -11581,6 +11799,7 @@
 				90981ACE1DB5B79F00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981AD81DB5B7AD00B98889 /* Build configuration list for PBXNativeTarget "leetcode0114" */ = {
 			isa = XCConfigurationList;
@@ -11589,6 +11808,7 @@
 				90981ADA1DB5B7AD00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981AE41DB5B7BB00B98889 /* Build configuration list for PBXNativeTarget "leetcode0115" */ = {
 			isa = XCConfigurationList;
@@ -11597,6 +11817,7 @@
 				90981AE61DB5B7BB00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981AF01DB5B81200B98889 /* Build configuration list for PBXNativeTarget "leetcode0116" */ = {
 			isa = XCConfigurationList;
@@ -11605,6 +11826,7 @@
 				90981AF21DB5B81200B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981AFC1DB5B82200B98889 /* Build configuration list for PBXNativeTarget "leetcode0117" */ = {
 			isa = XCConfigurationList;
@@ -11613,6 +11835,7 @@
 				90981AFE1DB5B82200B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981B081DB5B83900B98889 /* Build configuration list for PBXNativeTarget "leetcode0118" */ = {
 			isa = XCConfigurationList;
@@ -11621,6 +11844,7 @@
 				90981B0A1DB5B83900B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981B141DB5B86800B98889 /* Build configuration list for PBXNativeTarget "leetcode0119" */ = {
 			isa = XCConfigurationList;
@@ -11629,6 +11853,7 @@
 				90981B161DB5B86800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981B201DB5B87C00B98889 /* Build configuration list for PBXNativeTarget "leetcode0120" */ = {
 			isa = XCConfigurationList;
@@ -11637,6 +11862,7 @@
 				90981B221DB5B87C00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981B2C1DB5B8A100B98889 /* Build configuration list for PBXNativeTarget "leetcode0121" */ = {
 			isa = XCConfigurationList;
@@ -11645,6 +11871,7 @@
 				90981B2E1DB5B8A100B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981B381DB5B8D800B98889 /* Build configuration list for PBXNativeTarget "leetcode0122" */ = {
 			isa = XCConfigurationList;
@@ -11653,6 +11880,7 @@
 				90981B3A1DB5B8D800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981B441DB5B8EC00B98889 /* Build configuration list for PBXNativeTarget "leetcode0123" */ = {
 			isa = XCConfigurationList;
@@ -11661,6 +11889,7 @@
 				90981B461DB5B8EC00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981B501DB5B8FB00B98889 /* Build configuration list for PBXNativeTarget "leetcode0124" */ = {
 			isa = XCConfigurationList;
@@ -11669,6 +11898,7 @@
 				90981B521DB5B8FB00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981B5C1DB5B95000B98889 /* Build configuration list for PBXNativeTarget "leetcode0125" */ = {
 			isa = XCConfigurationList;
@@ -11677,6 +11907,7 @@
 				90981B5E1DB5B95000B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981B681DB5B95F00B98889 /* Build configuration list for PBXNativeTarget "leetcode0126" */ = {
 			isa = XCConfigurationList;
@@ -11685,6 +11916,7 @@
 				90981B6A1DB5B95F00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981B741DB5B97300B98889 /* Build configuration list for PBXNativeTarget "leetcode0127" */ = {
 			isa = XCConfigurationList;
@@ -11693,6 +11925,7 @@
 				90981B761DB5B97300B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981B801DB5B98100B98889 /* Build configuration list for PBXNativeTarget "leetcode0128" */ = {
 			isa = XCConfigurationList;
@@ -11701,6 +11934,7 @@
 				90981B821DB5B98100B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981B8C1DB5B98F00B98889 /* Build configuration list for PBXNativeTarget "leetcode0129" */ = {
 			isa = XCConfigurationList;
@@ -11709,6 +11943,7 @@
 				90981B8E1DB5B98F00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981B981DB5B99F00B98889 /* Build configuration list for PBXNativeTarget "leetcode0130" */ = {
 			isa = XCConfigurationList;
@@ -11717,6 +11952,7 @@
 				90981B9A1DB5B99F00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981BA41DB5B9B200B98889 /* Build configuration list for PBXNativeTarget "leetcode0131" */ = {
 			isa = XCConfigurationList;
@@ -11725,6 +11961,7 @@
 				90981BA61DB5B9B200B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981BB01DB5B9D900B98889 /* Build configuration list for PBXNativeTarget "leetcode0132" */ = {
 			isa = XCConfigurationList;
@@ -11733,6 +11970,7 @@
 				90981BB21DB5B9D900B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981BBC1DB5B9E800B98889 /* Build configuration list for PBXNativeTarget "leetcode0133" */ = {
 			isa = XCConfigurationList;
@@ -11741,6 +11979,7 @@
 				90981BBE1DB5B9E800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981BC81DB5B9F800B98889 /* Build configuration list for PBXNativeTarget "leetcode0134" */ = {
 			isa = XCConfigurationList;
@@ -11749,6 +11988,7 @@
 				90981BCA1DB5B9F800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981BD41DB5BA0900B98889 /* Build configuration list for PBXNativeTarget "leetcode0135" */ = {
 			isa = XCConfigurationList;
@@ -11757,6 +11997,7 @@
 				90981BD61DB5BA0900B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981BE01DB5BA1800B98889 /* Build configuration list for PBXNativeTarget "leetcode0136" */ = {
 			isa = XCConfigurationList;
@@ -11765,6 +12006,7 @@
 				90981BE21DB5BA1800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981BEC1DB5BA2800B98889 /* Build configuration list for PBXNativeTarget "leetcode0137" */ = {
 			isa = XCConfigurationList;
@@ -11773,6 +12015,7 @@
 				90981BEE1DB5BA2800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981BF81DB5BA3900B98889 /* Build configuration list for PBXNativeTarget "leetcode0138" */ = {
 			isa = XCConfigurationList;
@@ -11781,6 +12024,7 @@
 				90981BFA1DB5BA3900B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981C041DB5BA7500B98889 /* Build configuration list for PBXNativeTarget "leetcode0139" */ = {
 			isa = XCConfigurationList;
@@ -11789,6 +12033,7 @@
 				90981C061DB5BA7500B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981C101DB5BA8600B98889 /* Build configuration list for PBXNativeTarget "leetcode0140" */ = {
 			isa = XCConfigurationList;
@@ -11797,6 +12042,7 @@
 				90981C121DB5BA8600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981C1C1DB5BAC800B98889 /* Build configuration list for PBXNativeTarget "leetcode0141" */ = {
 			isa = XCConfigurationList;
@@ -11805,6 +12051,7 @@
 				90981C1E1DB5BAC800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981C281DB5BAD800B98889 /* Build configuration list for PBXNativeTarget "leetcode0142" */ = {
 			isa = XCConfigurationList;
@@ -11813,6 +12060,7 @@
 				90981C2A1DB5BAD800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981C341DB5BAE700B98889 /* Build configuration list for PBXNativeTarget "leetcode0143" */ = {
 			isa = XCConfigurationList;
@@ -11821,6 +12069,7 @@
 				90981C361DB5BAE700B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981C401DB5BAF600B98889 /* Build configuration list for PBXNativeTarget "leetcode0144" */ = {
 			isa = XCConfigurationList;
@@ -11829,6 +12078,7 @@
 				90981C421DB5BAF600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981C4C1DB5BB0800B98889 /* Build configuration list for PBXNativeTarget "leetcode0145" */ = {
 			isa = XCConfigurationList;
@@ -11837,6 +12087,7 @@
 				90981C4E1DB5BB0800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981C581DB5BB1900B98889 /* Build configuration list for PBXNativeTarget "leetcode0146" */ = {
 			isa = XCConfigurationList;
@@ -11845,6 +12096,7 @@
 				90981C5A1DB5BB1900B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981C641DB5BB2700B98889 /* Build configuration list for PBXNativeTarget "leetcode0147" */ = {
 			isa = XCConfigurationList;
@@ -11853,6 +12105,7 @@
 				90981C661DB5BB2700B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981C701DB5BB3700B98889 /* Build configuration list for PBXNativeTarget "leetcode0148" */ = {
 			isa = XCConfigurationList;
@@ -11861,6 +12114,7 @@
 				90981C721DB5BB3700B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981C7C1DB5BB4600B98889 /* Build configuration list for PBXNativeTarget "leetcode0149" */ = {
 			isa = XCConfigurationList;
@@ -11869,6 +12123,7 @@
 				90981C7E1DB5BB4600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981C881DB5BB5800B98889 /* Build configuration list for PBXNativeTarget "leetcode0150" */ = {
 			isa = XCConfigurationList;
@@ -11877,6 +12132,7 @@
 				90981C8A1DB5BB5800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981C941DB5BB7300B98889 /* Build configuration list for PBXNativeTarget "leetcode0151" */ = {
 			isa = XCConfigurationList;
@@ -11885,6 +12141,7 @@
 				90981C961DB5BB7300B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981CA01DB5BB8700B98889 /* Build configuration list for PBXNativeTarget "leetcode0152" */ = {
 			isa = XCConfigurationList;
@@ -11893,6 +12150,7 @@
 				90981CA21DB5BB8700B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981CAC1DB5BB9500B98889 /* Build configuration list for PBXNativeTarget "leetcode0153" */ = {
 			isa = XCConfigurationList;
@@ -11901,6 +12159,7 @@
 				90981CAE1DB5BB9500B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981CB81DB5BBA800B98889 /* Build configuration list for PBXNativeTarget "leetcode0154" */ = {
 			isa = XCConfigurationList;
@@ -11909,6 +12168,7 @@
 				90981CBA1DB5BBA800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981CC41DB5BBBA00B98889 /* Build configuration list for PBXNativeTarget "leetcode0155" */ = {
 			isa = XCConfigurationList;
@@ -11917,6 +12177,7 @@
 				90981CC61DB5BBBA00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981CE61DB5BC1700B98889 /* Build configuration list for PBXNativeTarget "leetcode0160" */ = {
 			isa = XCConfigurationList;
@@ -11925,6 +12186,7 @@
 				90981CE81DB5BC1700B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981CF21DB5BC2800B98889 /* Build configuration list for PBXNativeTarget "leetcode0162" */ = {
 			isa = XCConfigurationList;
@@ -11933,6 +12195,7 @@
 				90981CF41DB5BC2800B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981CFE1DB5BCA600B98889 /* Build configuration list for PBXNativeTarget "leetcode0190" */ = {
 			isa = XCConfigurationList;
@@ -11941,6 +12204,7 @@
 				90981D001DB5BCA600B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981D0A1DB5BCBA00B98889 /* Build configuration list for PBXNativeTarget "leetcode0206" */ = {
 			isa = XCConfigurationList;
@@ -11949,6 +12213,7 @@
 				90981D0C1DB5BCBA00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981D161DB5BCCE00B98889 /* Build configuration list for PBXNativeTarget "leetcode0257" */ = {
 			isa = XCConfigurationList;
@@ -11957,6 +12222,7 @@
 				90981D181DB5BCCE00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981D221DB5BCE000B98889 /* Build configuration list for PBXNativeTarget "leetcode0260" */ = {
 			isa = XCConfigurationList;
@@ -11965,6 +12231,7 @@
 				90981D241DB5BCE000B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90981D2F1DB5BCFD00B98889 /* Build configuration list for PBXNativeTarget "leetcode0374" */ = {
 			isa = XCConfigurationList;
@@ -11973,6 +12240,7 @@
 				90981D311DB5BCFD00B98889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
