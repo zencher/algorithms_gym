@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9035265F20BBE62D0040F3BE /* leetcode0168.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9035265520BBE5E90040F3BE /* leetcode0168.cpp */; };
 		906F5A6D20BAC08A007F3EDF /* leetcode0167.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906F5A6C20BAC08A007F3EDF /* leetcode0167.cpp */; };
 		9098156A1DB4CCB800B98889 /* leetcode0001.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909814271DB4CC1700B98889 /* leetcode0001.cpp */; };
 		909815941DB4CD5E00B98889 /* leetcode0002.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909814281DB4CC1700B98889 /* leetcode0002.cpp */; };
@@ -166,6 +167,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		9035265A20BBE6170040F3BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		906F5A6320BABE48007F3EDF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1636,6 +1646,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9035265520BBE5E90040F3BE /* leetcode0168.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode0168.cpp; path = ../../src/leetcode0168.cpp; sourceTree = "<group>"; };
+		9035265E20BBE6170040F3BE /* leetcode0168 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode0168; sourceTree = BUILT_PRODUCTS_DIR; };
 		906F5A6520BABE48007F3EDF /* leetcode0167 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode0167; sourceTree = BUILT_PRODUCTS_DIR; };
 		906F5A6C20BAC08A007F3EDF /* leetcode0167.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode0167.cpp; path = ../../src/leetcode0167.cpp; sourceTree = "<group>"; };
 		909814271DB4CC1700B98889 /* leetcode0001.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode0001.cpp; path = ../../src/leetcode0001.cpp; sourceTree = "<group>"; };
@@ -1959,6 +1971,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9035265920BBE6170040F3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		906F5A6220BABE48007F3EDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -3277,6 +3296,7 @@
 				90981D1E1DB5BCE000B98889 /* leetcode0260 */,
 				90981D2B1DB5BCFC00B98889 /* leetcode0374 */,
 				906F5A6520BABE48007F3EDF /* leetcode0167 */,
+				9035265E20BBE6170040F3BE /* leetcode0168 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3436,6 +3456,7 @@
 				909814BC1DB4CC1700B98889 /* leetcode0160.cpp */,
 				909814BD1DB4CC1700B98889 /* leetcode0162.cpp */,
 				906F5A6C20BAC08A007F3EDF /* leetcode0167.cpp */,
+				9035265520BBE5E90040F3BE /* leetcode0168.cpp */,
 				909814BE1DB4CC1700B98889 /* leetcode0190.cpp */,
 				909814BF1DB4CC1700B98889 /* leetcode0206.cpp */,
 				909814C01DB4CC1700B98889 /* leetcode0257.cpp */,
@@ -3448,6 +3469,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9035265620BBE6170040F3BE /* leetcode0168 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9035265B20BBE6170040F3BE /* Build configuration list for PBXNativeTarget "leetcode0168" */;
+			buildPhases = (
+				9035265720BBE6170040F3BE /* Sources */,
+				9035265920BBE6170040F3BE /* Frameworks */,
+				9035265A20BBE6170040F3BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode0168;
+			productName = leetcode0167;
+			productReference = 9035265E20BBE6170040F3BE /* leetcode0168 */;
+			productType = "com.apple.product-type.tool";
+		};
 		906F5A6420BABE48007F3EDF /* leetcode0167 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 906F5A6B20BABE49007F3EDF /* Build configuration list for PBXNativeTarget "leetcode0167" */;
@@ -6228,6 +6266,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = zencher;
 				TargetAttributes = {
+					9035265620BBE6170040F3BE = {
+						ProvisioningStyle = Automatic;
+					};
 					906F5A6420BABE48007F3EDF = {
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
@@ -7051,17 +7092,26 @@
 				90981CBF1DB5BBBA00B98889 /* leetcode0155 */,
 				90981CE11DB5BC1700B98889 /* leetcode0160 */,
 				90981CED1DB5BC2700B98889 /* leetcode0162 */,
+				906F5A6420BABE48007F3EDF /* leetcode0167 */,
+				9035265620BBE6170040F3BE /* leetcode0168 */,
 				90981CF91DB5BCA500B98889 /* leetcode0190 */,
 				90981D051DB5BCBA00B98889 /* leetcode0206 */,
 				90981D111DB5BCCE00B98889 /* leetcode0257 */,
 				90981D1D1DB5BCE000B98889 /* leetcode0260 */,
 				90981D2A1DB5BCFC00B98889 /* leetcode0374 */,
-				906F5A6420BABE48007F3EDF /* leetcode0167 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9035265720BBE6170040F3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9035265F20BBE62D0040F3BE /* leetcode0168.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		906F5A6120BABE48007F3EDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -8362,6 +8412,52 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		9035265C20BBE6170040F3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9035265D20BBE6170040F3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		906F5A6920BABE49007F3EDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -10784,6 +10880,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9035265B20BBE6170040F3BE /* Build configuration list for PBXNativeTarget "leetcode0168" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9035265C20BBE6170040F3BE /* Debug */,
+				9035265D20BBE6170040F3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		906F5A6B20BABE49007F3EDF /* Build configuration list for PBXNativeTarget "leetcode0167" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
