@@ -11,7 +11,7 @@
 #include <map>
 using namespace std;
 
-class Solution
+/*class Solution
 {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
@@ -74,6 +74,37 @@ private:
         return true;
     }
     map<int,bool> map_;
+};*/
+
+class Solution1
+{
+public:
+    bool isValidSudoku(vector<vector<char>>& board) {
+        bool colChecker[9][9] = {false};
+        bool boxChecker[9][9] = {false};
+        
+        for (size_t row = 0; row < 9; ++row) {
+            bool rowChecker[9] = {false};
+            for (size_t col = 0; col < 9; ++col) {
+                if (board[row][col] != '.') {
+                    char check = board[row][col];
+                    size_t index = (size_t)check-'1';
+                    size_t boxIndex = mapToBox(row, col);
+                    if (colChecker[col][index] || rowChecker[index] || boxChecker[boxIndex][index]) {
+                        return false;
+                    }
+                    colChecker[col][index] = true;
+                    rowChecker[index] = true;
+                    boxChecker[boxIndex][index] = true;
+                }
+            }
+        }
+        return true;
+    }
+    
+    size_t mapToBox(size_t row, size_t col) {
+        return col/3 + 3 * (row/3);
+    }
 };
 
 
@@ -188,7 +219,7 @@ int main()
     line.push_back('.');
     sudoku.push_back(line);
     
-    Solution s;
+    Solution1 s;
     
     bool bRet = s.isValidSudoku(sudoku);
     
