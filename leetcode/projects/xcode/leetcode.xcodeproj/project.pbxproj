@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		900F0CBE20E0C2A80066DEAE /* leetcode0171.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900F0CBD20E0C2A80066DEAE /* leetcode0171.cpp */; };
+		900F0CCB20E0C6610066DEAE /* leetcode0172.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900F0CCA20E0C6600066DEAE /* leetcode0172.cpp */; };
 		90280CF220DC9FAB00BBC8D9 /* leetcode0164.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90280CF120DC9FAA00BBC8D9 /* leetcode0164.cpp */; };
 		90280CF420DC9FC800BBC8D9 /* leetcode0169.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90280CF320DC9FC800BBC8D9 /* leetcode0169.cpp */; };
 		9035265F20BBE62D0040F3BE /* leetcode0168.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9035265520BBE5E90040F3BE /* leetcode0168.cpp */; };
@@ -169,6 +171,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		900F0CB420E0C2470066DEAE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		900F0CC120E0C6390066DEAE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		90280CE820DC9F2300BBC8D9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1666,6 +1686,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		900F0CB620E0C2470066DEAE /* leetcode0171 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode0171; sourceTree = BUILT_PRODUCTS_DIR; };
+		900F0CBD20E0C2A80066DEAE /* leetcode0171.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode0171.cpp; path = ../../src/leetcode0171.cpp; sourceTree = "<group>"; };
+		900F0CC320E0C6390066DEAE /* leetcode0172 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode0172; sourceTree = BUILT_PRODUCTS_DIR; };
+		900F0CCA20E0C6600066DEAE /* leetcode0172.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode0172.cpp; path = ../../src/leetcode0172.cpp; sourceTree = "<group>"; };
 		90280CEA20DC9F2300BBC8D9 /* leetcode0164 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode0164; sourceTree = BUILT_PRODUCTS_DIR; };
 		90280CF120DC9FAA00BBC8D9 /* leetcode0164.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode0164.cpp; path = ../../src/leetcode0164.cpp; sourceTree = "<group>"; };
 		90280CF320DC9FC800BBC8D9 /* leetcode0169.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode0169.cpp; path = ../../src/leetcode0169.cpp; sourceTree = "<group>"; };
@@ -1995,6 +2019,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		900F0CB320E0C2470066DEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900F0CC020E0C6390066DEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90280CE720DC9F2300BBC8D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -3337,6 +3375,8 @@
 				9035265E20BBE6170040F3BE /* leetcode0168 */,
 				9030B0D520BD0A9B005463AF /* leetcode0169 */,
 				90280CEA20DC9F2300BBC8D9 /* leetcode0164 */,
+				900F0CB620E0C2470066DEAE /* leetcode0171 */,
+				900F0CC320E0C6390066DEAE /* leetcode0172 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3499,6 +3539,8 @@
 				906F5A6C20BAC08A007F3EDF /* leetcode0167.cpp */,
 				9035265520BBE5E90040F3BE /* leetcode0168.cpp */,
 				90280CF320DC9FC800BBC8D9 /* leetcode0169.cpp */,
+				900F0CBD20E0C2A80066DEAE /* leetcode0171.cpp */,
+				900F0CCA20E0C6600066DEAE /* leetcode0172.cpp */,
 				909814BE1DB4CC1700B98889 /* leetcode0190.cpp */,
 				909814BF1DB4CC1700B98889 /* leetcode0206.cpp */,
 				909814C01DB4CC1700B98889 /* leetcode0257.cpp */,
@@ -3511,6 +3553,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		900F0CB520E0C2470066DEAE /* leetcode0171 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900F0CBC20E0C2480066DEAE /* Build configuration list for PBXNativeTarget "leetcode0171" */;
+			buildPhases = (
+				900F0CB220E0C2470066DEAE /* Sources */,
+				900F0CB320E0C2470066DEAE /* Frameworks */,
+				900F0CB420E0C2470066DEAE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode0171;
+			productName = leetcode0171;
+			productReference = 900F0CB620E0C2470066DEAE /* leetcode0171 */;
+			productType = "com.apple.product-type.tool";
+		};
+		900F0CC220E0C6390066DEAE /* leetcode0172 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900F0CC720E0C6390066DEAE /* Build configuration list for PBXNativeTarget "leetcode0172" */;
+			buildPhases = (
+				900F0CBF20E0C6390066DEAE /* Sources */,
+				900F0CC020E0C6390066DEAE /* Frameworks */,
+				900F0CC120E0C6390066DEAE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode0172;
+			productName = leetcode0172;
+			productReference = 900F0CC320E0C6390066DEAE /* leetcode0172 */;
+			productType = "com.apple.product-type.tool";
+		};
 		90280CE920DC9F2300BBC8D9 /* leetcode0164 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90280CF020DC9F2300BBC8D9 /* Build configuration list for PBXNativeTarget "leetcode0164" */;
@@ -6342,6 +6418,14 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = zencher;
 				TargetAttributes = {
+					900F0CB520E0C2470066DEAE = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					900F0CC220E0C6390066DEAE = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
 					90280CE920DC9F2300BBC8D9 = {
 						CreatedOnToolsVersion = 9.4.1;
 						ProvisioningStyle = Automatic;
@@ -7176,20 +7260,38 @@
 				90981CBF1DB5BBBA00B98889 /* leetcode0155 */,
 				90981CE11DB5BC1700B98889 /* leetcode0160 */,
 				90981CED1DB5BC2700B98889 /* leetcode0162 */,
+				90280CE920DC9F2300BBC8D9 /* leetcode0164 */,
 				906F5A6420BABE48007F3EDF /* leetcode0167 */,
 				9035265620BBE6170040F3BE /* leetcode0168 */,
 				9030B0D420BD0A9B005463AF /* leetcode0169 */,
+				900F0CB520E0C2470066DEAE /* leetcode0171 */,
 				90981CF91DB5BCA500B98889 /* leetcode0190 */,
 				90981D051DB5BCBA00B98889 /* leetcode0206 */,
 				90981D111DB5BCCE00B98889 /* leetcode0257 */,
 				90981D1D1DB5BCE000B98889 /* leetcode0260 */,
 				90981D2A1DB5BCFC00B98889 /* leetcode0374 */,
-				90280CE920DC9F2300BBC8D9 /* leetcode0164 */,
+				900F0CC220E0C6390066DEAE /* leetcode0172 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		900F0CB220E0C2470066DEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900F0CBE20E0C2A80066DEAE /* leetcode0171.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900F0CBF20E0C6390066DEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900F0CCB20E0C6610066DEAE /* leetcode0172.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90280CE620DC9F2300BBC8D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -8514,6 +8616,62 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		900F0CBA20E0C2480066DEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		900F0CBB20E0C2480066DEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		900F0CC820E0C6390066DEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		900F0CC920E0C6390066DEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		90280CEE20DC9F2300BBC8D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -11038,6 +11196,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		900F0CBC20E0C2480066DEAE /* Build configuration list for PBXNativeTarget "leetcode0171" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900F0CBA20E0C2480066DEAE /* Debug */,
+				900F0CBB20E0C2480066DEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900F0CC720E0C6390066DEAE /* Build configuration list for PBXNativeTarget "leetcode0172" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900F0CC820E0C6390066DEAE /* Debug */,
+				900F0CC920E0C6390066DEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		90280CF020DC9F2300BBC8D9 /* Build configuration list for PBXNativeTarget "leetcode0164" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
