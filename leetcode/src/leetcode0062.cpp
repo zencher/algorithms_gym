@@ -41,9 +41,32 @@ private:
     map<pair<int,int>,int> memo;
 };
 
+//更好的实现，不需要使用递归，遍历就可以做到了，因为是向右和向下移动，所以，从左往右，从上到下遍历计算，所依赖的中间结果都是无误的，无需递归，递归是从思路上更直接一些，遍历从效率上更高一些
+class Solution001 {
+public:
+    int uniquePaths(int m, int n) {
+        int* matrix = new int[m*n];
+        for (int i=0; i<m; i++){
+            for (int j=0; j<n; j++){
+                if(i==0 || j==0){
+                    matrix[i*n+j]=1;
+                }else{
+                    matrix[i*n+j] = matrix[(i-1)*n+j] + matrix[i*n+j-1];
+                }
+            }
+        }
+        int u = matrix[m*n-1];
+        delete[] matrix;
+        return u;
+    }
+
+private:
+    map<pair<int,int>,int> memo;
+};
+
 int main()
 {
-	Solution s;
+	Solution001 s;
 	int result = s.uniquePaths(3, 2);
 	printf("return %d\n", result);
 	return 0;
