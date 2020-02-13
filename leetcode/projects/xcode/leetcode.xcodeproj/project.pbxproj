@@ -168,6 +168,7 @@
 		90981D191DB5BCD800B98889 /* leetcode0257.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909814C01DB4CC1700B98889 /* leetcode0257.cpp */; };
 		90981D261DB5BCF500B98889 /* leetcode0260.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909814C11DB4CC1700B98889 /* leetcode0260.cpp */; };
 		90981D321DB5BD0700B98889 /* leetcode0374.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909814C21DB4CC1700B98889 /* leetcode0374.cpp */; };
+		90E170F321E0D74200DC7E6C /* leetcode0087.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90E170F221E0D74200DC7E6C /* leetcode0087.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -2016,6 +2017,7 @@
 		90981D121DB5BCCE00B98889 /* leetcode0257 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode0257; sourceTree = BUILT_PRODUCTS_DIR; };
 		90981D1E1DB5BCE000B98889 /* leetcode0260 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode0260; sourceTree = BUILT_PRODUCTS_DIR; };
 		90981D2B1DB5BCFC00B98889 /* leetcode0374 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode0374; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E170F221E0D74200DC7E6C /* leetcode0087.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = leetcode0087.cpp; path = ../../src/leetcode0087.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -3465,6 +3467,7 @@
 				909814751DB4CC1700B98889 /* leetcode0084.cpp */,
 				909814761DB4CC1700B98889 /* leetcode0085.cpp */,
 				909814771DB4CC1700B98889 /* leetcode0086.cpp */,
+				90E170F221E0D74200DC7E6C /* leetcode0087.cpp */,
 				909814781DB4CC1700B98889 /* leetcode0088.cpp */,
 				909814791DB4CC1700B98889 /* leetcode0089.cpp */,
 				9098147A1DB4CC1700B98889 /* leetcode0090.cpp */,
@@ -8011,6 +8014,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E170F321E0D74200DC7E6C /* leetcode0087.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
