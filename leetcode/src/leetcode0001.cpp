@@ -44,27 +44,19 @@ public:
 	vector<int> twoSum(vector<int> &numbers, int target)
 	{
 		vector<int> ret;
-		unordered_map<int,int> table;
+		unordered_map<int,int> hash;
 		unordered_map<int,int>::iterator it;
 		for ( int i = 0; i < numbers.size(); ++i )
 		{
-			table.insert( pair<int,int>(numbers[i],i+1) );
-		}
-		for ( int i = 0; i < numbers.size(); ++i )
-		{
-			it = table.find( target - numbers[i] );
-			if ( it != table.end() && it->second != i+1 )
+            int numberToFile = target - numbers[i];
+			it = hash.find( numberToFile );
+			if ( it != hash.end() )
 			{
-				if ( i+1 < it->second )
-				{
-					ret.push_back( i+1 );
-					ret.push_back( it->second );
-				}else{ 
-					ret.push_back( it->second );
-					ret.push_back( i+1 );
-				}
+                ret.push_back( it->second );
+                ret.push_back( i );
 				return ret;
 			}
+            hash[numbers[i]] = i;
 		}
 		return ret;
 	}
